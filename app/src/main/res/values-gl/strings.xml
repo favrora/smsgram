@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simple SMS Messenger</string>
+    <string name="app_launcher_name">Mensaxe SMS</string>
+    <string name="type_a_message">Escribir unha mensaxe…</string>
+    <string name="message_not_sent_short">Mensaxe non enviada</string>
+    <string name="message_not_sent_touch_retry">Non enviado. Toca para tentalo de novo.</string>
+    <string name="message_sending_error">O teu mensaxe a \'%s\' non foi enviado</string>
+    <string name="add_person">Engadir persoa</string>
+    <string name="attachment">Anexo</string>
+    <string name="no_conversations_found">Non se atoparon conversas</string>
+    <string name="start_conversation">Iniciar unha conversa</string>
+    <string name="reply">Responder</string>
+    <string name="show_character_counter">Mostrar un contador de caracteres ao escribir mensaxes</string>
+    <string name="loading_messages">Cargando mensaxes…</string>
+    <string name="no_reply_support">O remitente non admite respostas</string>
+    <string name="draft">Borrador</string>
+    <string name="sending">Enviando…</string>
+    <string name="pin_conversation">Pin to the top</string>
+    <string name="unpin_conversation">Desenganche</string>
+    <string name="forward_message">Adiante</string>
+    <string name="compress_error">Non se puido comprimir a imaxe ao tamaño seleccionado</string>
+    <!-- Attachments -->
+    <string name="duplicate_item_warning">Duplicate item was not included</string>
+    <!-- vCard -->
+    <plurals name="and_other_contacts">
+        <item quantity="one">E %d outro</item>
+        <item quantity="other">E %d outros</item>
+    </plurals>
+    <!-- New conversation -->
+    <string name="new_conversation">Nova conversa</string>
+    <string name="add_contact_or_number">Engadir contacto ou número…</string>
+    <string name="suggestions">Suxerencias</string>
+    <!-- Schedule send -->
+    <string name="scheduled_message">Mensaxe programada</string>
+    <string name="schedule_message">Programala mensaxe</string>
+    <string name="schedule_send">Programar envío</string>
+    <string name="cancel_schedule_send">Cancelar o envío programado</string>
+    <string name="must_pick_time_in_the_future">Debes escoller un momento no futuro</string>
+    <string name="schedule_send_warning">Mantén o teléfono acendido e asegúrate de que non hai nada que mate a aplicación en segundo plano.</string>
+    <string name="update_message">Update message</string>
+    <string name="send_now">Enviar agora</string>
+    <!-- Notifications -->
+    <string name="channel_received_sms">SMS recibida</string>
+    <string name="new_message">Nova mensaxe</string>
+    <string name="mark_as_read">Marcar como lida</string>
+    <string name="mark_as_unread">Marcar como non lida</string>
+    <string name="me">Me</string>
+    <!-- Confirmation dialog -->
+    <string name="delete_whole_conversation_confirmation">Ten a certeza de que desexa eliminar todas as mensaxes desta conversa\?</string>
+    <!-- Are you sure you want to delete 5 conversations? -->
+    <plurals name="delete_conversations">
+        <item quantity="one">%d conversa</item>
+        <item quantity="other">%d conversas</item>
+    </plurals>
+    <!-- Are you sure you want to delete 5 messages? -->
+    <plurals name="delete_messages">
+        <item quantity="one">%d mensaxe</item>
+        <item quantity="other">%d mensaxes</item>
+    </plurals>
+    <!-- Settings -->
+    <string name="lock_screen_visibility">Visibilidade das notificacións na pantalla de bloqueo</string>
+    <string name="sender_and_message">Remitente e mensaxe</string>
+    <string name="sender_only">Só remitente</string>
+    <string name="enable_delivery_reports">Permitir envío de informes</string>
+    <string name="use_simple_characters">Eliminalos acentos e os diacríticos ao envialas mensaxes</string>
+    <string name="mms_file_size_limit">Cambia o tamaño das imaxes dos MMS enviados</string>
+    <string name="mms_file_size_limit_none">Sen límite</string>
+    <string name="outgoing_messages">Mensaxes saíntes</string>
+    <string name="group_message_mms">Enviar mensaxes de grupo como MMS</string>
+    <string name="send_long_message_mms">Envía mensaxes longas como MMS</string>
+    <!-- Export / Import -->
+    <string name="messages">Messages</string>
+    <string name="export_messages">Export messages</string>
+    <string name="export_sms">Export SMS</string>
+    <string name="export_mms">Exportar MMS</string>
+    <string name="import_messages">Import messages</string>
+    <string name="import_sms">Import SMS</string>
+    <string name="import_mms">Importar MMS</string>
+    <string name="no_option_selected">Ten que seleccionar polo menos un obxecto</string>
+    <!-- FAQ -->
+    <string name="faq_1_title">Por que o aplicativo necesita acceder a Internet\?</string>
+    <string name="faq_1_text">Infelizmente é a única forma para poder enviar anexos MMS. A incapacidade de non conseguir enviar MMS sería unha enorme desvantaxe comparativamente a outros aplicativos e, por iso, tomamos esta decisión. Pero, como habitualmente, o aplicativo non ten anuncios, non rastrea os utilizadores nin recolle datos persoais. Este permiso só é necesario para enviar as MMS.</string>
+    <string name="faq_2_title">O outro extremo non está recibindo o meu MMS, ¿podo facer algo ao respecto\?</string>
+    <string name="faq_2_text">O tamaño dos MMS está limitado polos operadores; podes tentar establecer un límite máis pequeno na configuración da aplicación.</string>
+    <string name="faq_3_title">A aplicación admite mensaxes programadas\?</string>
+    <string name="faq_3_text">Si, pode programalo envío de mensaxes no futuro premendo no botón Enviar e escollendo a data e a hora desexadas.</string>
+    <!--
+        Non atopaches algunhas cadeas? Hai máis en
+        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+    -->
+</resources>
