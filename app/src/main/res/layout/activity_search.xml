@@ -27,7 +27,7 @@
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-        <com.simplemobiletools.commons.views.MyTextView
+        <com.favrora.commons.views.MyTextView
             android:id="@+id/search_placeholder"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -41,7 +41,7 @@
             android:textSize="@dimen/bigger_text_size"
             android:textStyle="italic" />
 
-        <com.simplemobiletools.commons.views.MyTextView
+        <com.favrora.commons.views.MyTextView
             android:id="@+id/search_placeholder_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -57,13 +57,13 @@
             android:textSize="@dimen/bigger_text_size"
             android:textStyle="italic" />
 
-        <com.simplemobiletools.commons.views.MyRecyclerView
+        <com.favrora.commons.views.MyRecyclerView
             android:id="@+id/search_results_list"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:clipToPadding="false"
             android:scrollbars="vertical"
-            app:layoutManager="com.simplemobiletools.commons.views.MyLinearLayoutManager" />
+            app:layoutManager="com.favrora.commons.views.MyLinearLayoutManager" />
 
     </RelativeLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

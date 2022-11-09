@@ -57,7 +57,7 @@
                     android:layout_height="wrap_content"
                     android:background="@drawable/ripple_all_corners">
 
-                    <com.simplemobiletools.commons.views.MyTextView
+                    <com.favrora.commons.views.MyTextView
                         android:id="@+id/settings_customize_colors_label"
                         style="@style/SettingsTextLabelStyle"
                         android:layout_width="wrap_content"
@@ -89,7 +89,7 @@
                     android:layout_height="wrap_content"
                     android:background="@drawable/ripple_top_corners">
 
-                    <com.simplemobiletools.commons.views.MyTextView
+                    <com.favrora.commons.views.MyTextView
                         android:id="@+id/settings_purchase_thank_you"
                         style="@style/SettingsTextLabelStyle"
                         android:layout_width="wrap_content"
@@ -105,7 +105,7 @@
                     android:layout_height="wrap_content"
                     android:background="@drawable/ripple_background">
 
-                    <com.simplemobiletools.commons.views.MyAppCompatCheckbox
+                    <com.favrora.commons.views.MyAppCompatCheckbox
                         android:id="@+id/settings_use_english"
                         style="@style/SettingsCheckboxStyle"
                         android:layout_width="match_parent"
@@ -121,14 +121,14 @@
                     android:layout_height="wrap_content"
                     android:background="@drawable/ripple_background">
 
-                    <com.simplemobiletools.commons.views.MyTextView
+                    <com.favrora.commons.views.MyTextView
                         android:id="@+id/settings_language_label"
                         style="@style/SettingsTextLabelStyle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/language" />
 
-                    <com.simplemobiletools.commons.views.MyTextView
+                    <com.favrora.commons.views.MyTextView
                         android:id="@+id/settings_language"
                         style="@style/SettingsTextValueStyle"
                         android:layout_width="wrap_content"
@@ -145,7 +145,7 @@
                     android:layout_height="wrap_content"
                     android:background="@drawable/ripple_background">
 
-                    <com.simplemobiletools.commons.views.MyTextView
+                    <com.favrora.commons.views.MyTextView
                         android:id="@+id/settings_change_date_time_format"
                         style="@style/SettingsTextLabelStyle"
                         android:layout_width="wrap_content"
@@ -161,7 +161,7 @@
                     android:layout_height="wrap_content"
                     android:background="@drawable/ripple_background">
 
-                    <com.simplemobiletools.commons.views.MyTextView
+                    <com.favrora.commons.views.MyTextView
                         android:id="@+id/settings_manage_blocked_numbers"
                         style="@style/SettingsTextLabelStyle"
                         android:layout_width="wrap_content"
@@ -177,14 +177,14 @@
                     android:layout_height="wrap_content"
                     android:background="@drawable/ripple_bottom_corners">
 
-                    <com.simplemobiletools.commons.views.MyTextView
+                    <com.favrora.commons.views.MyTextView
                         android:id="@+id/settings_font_size_label"
                         style="@style/SettingsTextLabelStyle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/font_size" />
 
-                    <com.simplemobiletools.commons.views.MyTextView
+                    <com.favrora.commons.views.MyTextView
                         android:id="@+id/settings_font_size"
                         style="@style/SettingsTextValueStyle"
                         android:layout_width="wrap_content"
@@ -217,7 +217,7 @@
                     android:layout_height="wrap_content"
                     android:background="@drawable/ripple_top_corners">
 
-                    <com.simplemobiletools.commons.views.MyTextView
+                    <com.favrora.commons.views.MyTextView
                         android:id="@+id/settings_customize_notifications_label"
                         style="@style/SettingsTextLabelStyle"
                         android:layout_width="wrap_content"
@@ -233,14 +233,14 @@
                     android:layout_height="wrap_content"
                     android:background="@drawable/ripple_bottom_corners">
 
-                    <com.simplemobiletools.commons.views.MyTextView
+                    <com.favrora.commons.views.MyTextView
                         android:id="@+id/settings_lock_screen_visibility_label"
                         style="@style/SettingsTextLabelStyle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/lock_screen_visibility" />
 
-                    <com.simplemobiletools.commons.views.MyTextView
+                    <com.favrora.commons.views.MyTextView
                         android:id="@+id/settings_lock_screen_visibility"
                         style="@style/SettingsTextValueStyle"
                         android:layout_width="wrap_content"
@@ -273,7 +273,7 @@
                     android:layout_height="wrap_content"
                     android:background="@drawable/ripple_top_corners">
 
-                    <com.simplemobiletools.commons.views.MyAppCompatCheckbox
+                    <com.favrora.commons.views.MyAppCompatCheckbox
                         android:id="@+id/settings_show_character_counter"
                         style="@style/SettingsCheckboxStyle"
                         android:layout_width="match_parent"
@@ -289,7 +289,7 @@
                     android:layout_height="wrap_content"
                     android:background="@drawable/ripple_background">
 
-                    <com.simplemobiletools.commons.views.MyAppCompatCheckbox
+                    <com.favrora.commons.views.MyAppCompatCheckbox
                         android:id="@+id/settings_use_simple_characters"
                         style="@style/SettingsCheckboxStyle"
                         android:layout_width="match_parent"
@@ -305,7 +305,7 @@
                     android:layout_height="wrap_content"
                     android:background="@drawable/ripple_background">
 
-                    <com.simplemobiletools.commons.views.MyAppCompatCheckbox
+                    <com.favrora.commons.views.MyAppCompatCheckbox
                         android:id="@+id/settings_enable_delivery_reports"
                         style="@style/SettingsCheckboxStyle"
                         android:layout_width="match_parent"
@@ -321,7 +321,7 @@
                     android:layout_height="wrap_content"
                     android:background="@drawable/ripple_background">
 
-                    <com.simplemobiletools.commons.views.MyAppCompatCheckbox
+                    <com.favrora.commons.views.MyAppCompatCheckbox
                         android:id="@+id/settings_send_long_message_mms"
                         style="@style/SettingsCheckboxStyle"
                         android:layout_width="match_parent"
@@ -337,7 +337,7 @@
                     android:layout_height="wrap_content"
                     android:background="@drawable/ripple_background">
 
-                    <com.simplemobiletools.commons.views.MyAppCompatCheckbox
+                    <com.favrora.commons.views.MyAppCompatCheckbox
                         android:id="@+id/settings_send_group_message_mms"
                         style="@style/SettingsCheckboxStyle"
                         android:layout_width="match_parent"
@@ -353,14 +353,14 @@
                     android:background="@drawable/ripple_bottom_corners"
                     android:padding="@dimen/activity_margin">
 
-                    <com.simplemobiletools.commons.views.MyTextView
+                    <com.favrora.commons.views.MyTextView
                         android:id="@+id/settings_mms_file_size_limit_label"
                         style="@style/SettingsTextLabelStyle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/mms_file_size_limit" />
 
-                    <com.simplemobiletools.commons.views.MyTextView
+                    <com.favrora.commons.views.MyTextView
                         android:id="@+id/settings_mms_file_size_limit"
                         style="@style/SettingsTextValueStyle"
                         android:layout_width="wrap_content"

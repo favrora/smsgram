@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.simplemobiletools.smsmessenger"
+    package="com.favrora.smsgram"
     android:installLocation="auto">
 
     <uses-permission android:name="android.permission.READ_SMS" />
@@ -25,14 +25,14 @@
         tools:node="remove" />
 
     <queries>
-        <package android:name="com.simplemobiletools.contacts.pro.debug" />
-        <package android:name="com.simplemobiletools.contacts.pro" />
+        <package android:name="com.favrora.contacts.pro.debug" />
+        <package android:name="com.favrora.contacts.pro" />
     </queries>
 
     <uses-feature android:name="android.hardware.telephony" />
 
     <application
-        android:name=".App"
+        android:name="com.favrora.smsgram.App"
         android:allowBackup="true"
         android:appCategory="productivity"
         android:icon="@mipmap/ic_launcher"
@@ -46,20 +46,20 @@
             android:theme="@style/SplashTheme" />
 
         <activity
-            android:name=".activities.MainActivity"
+            android:name="com.favrora.smsgram.activities.MainActivity"
             android:exported="true" />
 
         <activity
             android:name=".activities.ThreadActivity"
             android:exported="false"
-            android:parentActivityName=".activities.MainActivity"
+            android:parentActivityName="com.favrora.smsgram.activities.MainActivity"
             android:windowSoftInputMode="adjustResize" />
 
         <activity
             android:name=".activities.SearchActivity"
             android:exported="false"
             android:label=""
-            android:parentActivityName=".activities.MainActivity"
+            android:parentActivityName="com.favrora.smsgram.activities.MainActivity"
             android:resizeableActivity="true">
 
             <meta-data
@@ -74,7 +74,7 @@
         <activity
             android:name=".activities.NewConversationActivity"
             android:exported="true"
-            android:parentActivityName=".activities.MainActivity">
+            android:parentActivityName="com.favrora.smsgram.activities.MainActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
@@ -109,7 +109,7 @@
             android:name=".activities.SettingsActivity"
             android:exported="true"
             android:label="@string/settings"
-            android:parentActivityName=".activities.MainActivity">
+            android:parentActivityName="com.favrora.smsgram.activities.MainActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.APPLICATION_PREFERENCES" />
@@ -118,19 +118,19 @@
         </activity>
 
         <activity
-            android:name="com.simplemobiletools.commons.activities.AboutActivity"
+            android:name="com.favrora.commons.activities.AboutActivity"
             android:exported="false"
             android:label="@string/about"
-            android:parentActivityName=".activities.MainActivity" />
+            android:parentActivityName="com.favrora.smsgram.activities.MainActivity" />
 
         <activity
-            android:name="com.simplemobiletools.commons.activities.CustomizationActivity"
+            android:name="com.favrora.commons.activities.CustomizationActivity"
             android:exported="false"
             android:label="@string/customize_colors"
             android:parentActivityName=".activities.SettingsActivity" />
 
         <activity
-            android:name="com.simplemobiletools.commons.activities.ManageBlockedNumbersActivity"
+            android:name="com.favrora.commons.activities.ManageBlockedNumbersActivity"
             android:exported="false"
             android:label="@string/blocked_numbers"
             android:parentActivityName=".activities.SettingsActivity" />
@@ -198,7 +198,7 @@
             android:enabled="true"
             android:exported="true">
             <intent-filter>
-                <action android:name="com.simplemobiletools.smsmessenger.action.mark_as_read" />
+                <action android:name="com.favrora.smsgram.action.mark_as_read" />
             </intent-filter>
         </receiver>
 
@@ -207,7 +207,7 @@
             android:enabled="true"
             android:exported="true">
             <intent-filter>
-                <action android:name="com.simplemobiletools.smsmessenger.action.reply" />
+                <action android:name="com.favrora.smsgram.action.reply" />
             </intent-filter>
         </receiver>
 
