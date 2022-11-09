@@ -6,9 +6,9 @@ import android.net.Uri
 import android.provider.Telephony.Mms
 import android.provider.Telephony.Sms
 import android.util.Base64
-import com.favrora.commons.extensions.*
-import com.favrora.commons.helpers.isQPlus
-import com.favrora.commons.helpers.isRPlus
+import com.simplemobiletools.commons.extensions.*
+import com.simplemobiletools.commons.helpers.isQPlus
+import com.simplemobiletools.commons.helpers.isRPlus
 import com.favrora.smsgram.models.MmsAddress
 import com.favrora.smsgram.models.MmsBackup
 import com.favrora.smsgram.models.MmsPart

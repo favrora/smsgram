@@ -3,7 +3,7 @@ package com.favrora.smsgram.helpers
 import android.content.Context
 import com.google.gson.Gson
 import com.google.gson.stream.JsonWriter
-import com.favrora.commons.helpers.ensureBackgroundThread
+import com.simplemobiletools.commons.helpers.ensureBackgroundThread
 import com.favrora.smsgram.extensions.config
 import com.favrora.smsgram.extensions.getConversationIds
 import java.io.OutputStream

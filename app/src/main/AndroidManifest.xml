@@ -118,19 +118,19 @@
         </activity>
 
         <activity
-            android:name="com.favrora.commons.activities.AboutActivity"
+            android:name="com.simplemobiletools.commons.activities.AboutActivity"
             android:exported="false"
             android:label="@string/about"
             android:parentActivityName="com.favrora.smsgram.activities.MainActivity" />
 
         <activity
-            android:name="com.favrora.commons.activities.CustomizationActivity"
+            android:name="com.simplemobiletools.commons.activities.CustomizationActivity"
             android:exported="false"
             android:label="@string/customize_colors"
             android:parentActivityName=".activities.SettingsActivity" />
 
         <activity
-            android:name="com.favrora.commons.activities.ManageBlockedNumbersActivity"
+            android:name="com.simplemobiletools.commons.activities.ManageBlockedNumbersActivity"
             android:exported="false"
             android:label="@string/blocked_numbers"
             android:parentActivityName=".activities.SettingsActivity" />

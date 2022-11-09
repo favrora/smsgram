@@ -2,10 +2,10 @@ package com.favrora.smsgram.dialogs
 
 import android.view.ViewGroup
 import androidx.appcompat.app.AlertDialog
-import com.favrora.commons.extensions.getAlertDialogBuilder
-import com.favrora.commons.extensions.setupDialogStuff
-import com.favrora.commons.extensions.toast
-import com.favrora.commons.helpers.ensureBackgroundThread
+import com.simplemobiletools.commons.extensions.getAlertDialogBuilder
+import com.simplemobiletools.commons.extensions.setupDialogStuff
+import com.simplemobiletools.commons.extensions.toast
+import com.simplemobiletools.commons.helpers.ensureBackgroundThread
 import com.favrora.smsgram.R
 import com.favrora.smsgram.activities.SimpleActivity
 import com.favrora.smsgram.extensions.config

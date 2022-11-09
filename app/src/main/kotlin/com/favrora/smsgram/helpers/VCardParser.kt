@@ -2,7 +2,7 @@ package com.favrora.smsgram.helpers
 
 import android.content.Context
 import android.net.Uri
-import com.favrora.commons.helpers.ensureBackgroundThread
+import com.simplemobiletools.commons.helpers.ensureBackgroundThread
 import ezvcard.Ezvcard
 import ezvcard.VCard
 

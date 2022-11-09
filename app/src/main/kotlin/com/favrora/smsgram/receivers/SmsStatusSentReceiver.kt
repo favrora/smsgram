@@ -16,11 +16,11 @@ import android.os.Looper
 import android.provider.Telephony
 import androidx.core.app.NotificationCompat
 import com.klinker.android.send_message.SentReceiver
-import com.favrora.commons.extensions.getMyContactsCursor
-import com.favrora.commons.extensions.getProperPrimaryColor
-import com.favrora.commons.helpers.SimpleContactsHelper
-import com.favrora.commons.helpers.ensureBackgroundThread
-import com.favrora.commons.helpers.isOreoPlus
+import com.simplemobiletools.commons.extensions.getMyContactsCursor
+import com.simplemobiletools.commons.extensions.getProperPrimaryColor
+import com.simplemobiletools.commons.helpers.SimpleContactsHelper
+import com.simplemobiletools.commons.helpers.ensureBackgroundThread
+import com.simplemobiletools.commons.helpers.isOreoPlus
 import com.favrora.smsgram.R
 import com.favrora.smsgram.activities.ThreadActivity
 import com.favrora.smsgram.extensions.*

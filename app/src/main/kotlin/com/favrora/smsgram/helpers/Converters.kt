@@ -3,7 +3,7 @@ package com.favrora.smsgram.helpers
 import androidx.room.TypeConverter
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import com.favrora.commons.models.SimpleContact
+import com.simplemobiletools.commons.models.SimpleContact
 import com.favrora.smsgram.models.Attachment
 import com.favrora.smsgram.models.MessageAttachment
 

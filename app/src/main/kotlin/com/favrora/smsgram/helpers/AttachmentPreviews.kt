@@ -3,8 +3,8 @@ package com.favrora.smsgram.helpers
 import android.app.Activity
 import android.net.Uri
 import android.view.View
-import com.favrora.commons.extensions.*
-import com.favrora.commons.helpers.SimpleContactsHelper
+import com.simplemobiletools.commons.extensions.*
+import com.simplemobiletools.commons.helpers.SimpleContactsHelper
 import com.favrora.smsgram.R
 import com.favrora.smsgram.extensions.*
 import kotlinx.android.synthetic.main.item_attachment_document.view.*

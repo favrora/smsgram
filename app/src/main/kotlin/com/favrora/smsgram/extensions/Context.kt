@@ -27,10 +27,10 @@ import android.text.TextUtils
 import androidx.core.app.NotificationCompat
 import androidx.core.app.RemoteInput
 import com.klinker.android.send_message.Transaction.getAddressSeparator
-import com.favrora.commons.extensions.*
-import com.favrora.commons.helpers.*
-import com.favrora.commons.models.PhoneNumber
-import com.favrora.commons.models.SimpleContact
+import com.simplemobiletools.commons.extensions.*
+import com.simplemobiletools.commons.helpers.*
+import com.simplemobiletools.commons.models.PhoneNumber
+import com.simplemobiletools.commons.models.SimpleContact
 import com.favrora.smsgram.R
 import com.favrora.smsgram.activities.ThreadActivity
 import com.favrora.smsgram.databases.MessagesDatabase

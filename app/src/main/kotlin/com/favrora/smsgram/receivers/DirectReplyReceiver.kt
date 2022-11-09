@@ -6,9 +6,9 @@ import android.content.Context
 import android.content.Intent
 import androidx.core.app.RemoteInput
 import com.klinker.android.send_message.Transaction
-import com.favrora.commons.extensions.notificationManager
-import com.favrora.commons.extensions.showErrorToast
-import com.favrora.commons.helpers.ensureBackgroundThread
+import com.simplemobiletools.commons.extensions.notificationManager
+import com.simplemobiletools.commons.extensions.showErrorToast
+import com.simplemobiletools.commons.helpers.ensureBackgroundThread
 import com.favrora.smsgram.extensions.*
 import com.favrora.smsgram.helpers.REPLY
 import com.favrora.smsgram.helpers.THREAD_ID

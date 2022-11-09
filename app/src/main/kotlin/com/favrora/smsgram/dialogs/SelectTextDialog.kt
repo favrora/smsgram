@@ -1,8 +1,8 @@
 package com.favrora.smsgram.dialogs
 
-import com.favrora.commons.activities.BaseSimpleActivity
-import com.favrora.commons.extensions.getAlertDialogBuilder
-import com.favrora.commons.extensions.setupDialogStuff
+import com.simplemobiletools.commons.activities.BaseSimpleActivity
+import com.simplemobiletools.commons.extensions.getAlertDialogBuilder
+import com.simplemobiletools.commons.extensions.setupDialogStuff
 import com.favrora.smsgram.R
 import kotlinx.android.synthetic.main.dialog_select_text.view.*
 

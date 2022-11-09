@@ -1,3 +1,4 @@
 # Rename app
 
-com.favrora.smsgram => com.favrora.smsgram
+com.simplemobiletools.smsmessenger => com.favrora.smsgram
+

@@ -6,8 +6,8 @@ import android.app.TimePickerDialog
 import android.app.TimePickerDialog.OnTimeSetListener
 import android.text.format.DateFormat
 import androidx.appcompat.app.AlertDialog
-import com.favrora.commons.activities.BaseSimpleActivity
-import com.favrora.commons.extensions.*
+import com.simplemobiletools.commons.activities.BaseSimpleActivity
+import com.simplemobiletools.commons.extensions.*
 import com.favrora.smsgram.R
 import com.favrora.smsgram.extensions.config
 import com.favrora.smsgram.extensions.roundToClosestMultipleOf

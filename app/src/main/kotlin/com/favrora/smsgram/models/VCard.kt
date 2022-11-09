@@ -1,7 +1,7 @@
 package com.favrora.smsgram.models
 
 import android.content.Context
-import com.favrora.commons.extensions.normalizePhoneNumber
+import com.simplemobiletools.commons.extensions.normalizePhoneNumber
 import com.favrora.smsgram.R
 import com.favrora.smsgram.extensions.config
 import com.favrora.smsgram.extensions.format

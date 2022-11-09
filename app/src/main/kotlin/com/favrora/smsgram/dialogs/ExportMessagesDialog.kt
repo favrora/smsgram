@@ -2,8 +2,8 @@ package com.favrora.smsgram.dialogs
 
 import android.view.ViewGroup
 import androidx.appcompat.app.AlertDialog
-import com.favrora.commons.dialogs.FilePickerDialog
-import com.favrora.commons.extensions.*
+import com.simplemobiletools.commons.dialogs.FilePickerDialog
+import com.simplemobiletools.commons.extensions.*
 import com.favrora.smsgram.R
 import com.favrora.smsgram.activities.SimpleActivity
 import com.favrora.smsgram.extensions.config

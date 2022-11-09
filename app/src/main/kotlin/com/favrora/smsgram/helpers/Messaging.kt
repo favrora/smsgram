@@ -10,8 +10,8 @@ import androidx.core.app.AlarmManagerCompat
 import com.klinker.android.send_message.Settings
 import com.klinker.android.send_message.Transaction
 import com.klinker.android.send_message.Utils
-import com.favrora.commons.extensions.showErrorToast
-import com.favrora.commons.helpers.isMarshmallowPlus
+import com.simplemobiletools.commons.extensions.showErrorToast
+import com.simplemobiletools.commons.helpers.isMarshmallowPlus
 import com.favrora.smsgram.R
 import com.favrora.smsgram.extensions.config
 import com.favrora.smsgram.extensions.isPlainTextMimeType

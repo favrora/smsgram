@@ -1,6 +1,6 @@
 package com.favrora.smsgram.activities
 
-import com.favrora.commons.activities.BaseSimpleActivity
+import com.simplemobiletools.commons.activities.BaseSimpleActivity
 import com.favrora.smsgram.R
 
 open class SimpleActivity : BaseSimpleActivity() {

@@ -6,9 +6,9 @@ import android.graphics.BitmapFactory
 import android.graphics.Matrix
 import android.media.ExifInterface
 import android.net.Uri
-import com.favrora.commons.extensions.getCompressionFormat
-import com.favrora.commons.extensions.getMyFileUri
-import com.favrora.commons.helpers.ensureBackgroundThread
+import com.simplemobiletools.commons.extensions.getCompressionFormat
+import com.simplemobiletools.commons.extensions.getMyFileUri
+import com.simplemobiletools.commons.helpers.ensureBackgroundThread
 import com.favrora.smsgram.extensions.extension
 import com.favrora.smsgram.extensions.getExtensionFromMimeType
 import com.favrora.smsgram.extensions.getFileSizeFromUri

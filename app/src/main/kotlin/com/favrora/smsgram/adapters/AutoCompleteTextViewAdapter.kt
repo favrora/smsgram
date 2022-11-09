@@ -7,12 +7,12 @@ import android.widget.ArrayAdapter
 import android.widget.Filter
 import android.widget.RelativeLayout
 import android.widget.TextView
-import com.favrora.commons.extensions.darkenColor
-import com.favrora.commons.extensions.getContrastColor
-import com.favrora.commons.extensions.getProperBackgroundColor
-import com.favrora.commons.extensions.normalizeString
-import com.favrora.commons.helpers.SimpleContactsHelper
-import com.favrora.commons.models.SimpleContact
+import com.simplemobiletools.commons.extensions.darkenColor
+import com.simplemobiletools.commons.extensions.getContrastColor
+import com.simplemobiletools.commons.extensions.getProperBackgroundColor
+import com.simplemobiletools.commons.extensions.normalizeString
+import com.simplemobiletools.commons.helpers.SimpleContactsHelper
+import com.simplemobiletools.commons.models.SimpleContact
 import com.favrora.smsgram.R
 import com.favrora.smsgram.activities.SimpleActivity
 

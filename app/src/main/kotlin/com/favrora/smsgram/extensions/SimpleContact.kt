@@ -1,7 +1,7 @@
 package com.favrora.smsgram.extensions
 
 import android.text.TextUtils
-import com.favrora.commons.models.SimpleContact
+import com.simplemobiletools.commons.models.SimpleContact
 
 fun ArrayList<SimpleContact>.getThreadTitle(): String = TextUtils.join(", ", map { it.name }.toTypedArray()).orEmpty()
 

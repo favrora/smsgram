@@ -5,11 +5,11 @@ import android.view.Menu
 import android.view.View
 import android.view.ViewGroup
 import com.bumptech.glide.Glide
-import com.favrora.commons.adapters.MyRecyclerViewAdapter
-import com.favrora.commons.extensions.getTextSize
-import com.favrora.commons.extensions.highlightTextPart
-import com.favrora.commons.helpers.SimpleContactsHelper
-import com.favrora.commons.views.MyRecyclerView
+import com.simplemobiletools.commons.adapters.MyRecyclerViewAdapter
+import com.simplemobiletools.commons.extensions.getTextSize
+import com.simplemobiletools.commons.extensions.highlightTextPart
+import com.simplemobiletools.commons.helpers.SimpleContactsHelper
+import com.simplemobiletools.commons.views.MyRecyclerView
 import com.favrora.smsgram.R
 import com.favrora.smsgram.activities.SimpleActivity
 import com.favrora.smsgram.models.SearchResult

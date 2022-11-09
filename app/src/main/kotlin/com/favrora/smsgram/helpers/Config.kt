@@ -1,7 +1,7 @@
 package com.favrora.smsgram.helpers
 
 import android.content.Context
-import com.favrora.commons.helpers.BaseConfig
+import com.simplemobiletools.commons.helpers.BaseConfig
 import com.favrora.smsgram.extensions.getDefaultKeyboardHeight
 import com.favrora.smsgram.models.Conversation
 
