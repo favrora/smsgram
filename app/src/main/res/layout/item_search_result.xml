@@ -4,14 +4,14 @@
     android:id="@+id/search_result_holder"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginTop="@dimen/small_margin"
-    android:layout_marginBottom="@dimen/small_margin"
+    android:paddingTop="@dimen/activity_margin"
     android:background="?attr/selectableItemBackground">
 
     <ImageView
         android:id="@+id/search_result_image"
         android:layout_width="@dimen/normal_icon_size"
         android:layout_height="@dimen/normal_icon_size"
+        android:layout_marginStart="@dimen/normal_margin"
         android:layout_marginEnd="@dimen/normal_margin" />
 
     <TextView
@@ -20,6 +20,7 @@
         android:layout_height="wrap_content"
         android:layout_toStartOf="@+id/search_result_date"
         android:layout_toEndOf="@+id/search_result_image"
+        android:layout_marginBottom="@dimen/small_margin"
         android:ellipsize="end"
         android:maxLines="1"
         android:paddingEnd="@dimen/activity_margin"
@@ -47,6 +48,7 @@
         android:layout_alignBottom="@+id/search_result_title"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="@dimen/tiny_margin"
+        android:paddingEnd="@dimen/activity_margin"
         android:alpha="0.7"
         android:gravity="center_vertical"
         android:textSize="@dimen/smaller_text_size"

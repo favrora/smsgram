@@ -41,7 +41,9 @@
                 style="@style/SettingsSectionLabelStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/color_customization" />
+                android:text="@string/color_customization"
+                android:textAlignment="viewStart"
+                android:layout_marginHorizontal="@dimen/activity_margin" />
 
             <LinearLayout
                 android:id="@+id/settings_color_customization_holder"
@@ -73,7 +75,9 @@
                 style="@style/SettingsSectionLabelStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/general_settings" />
+                android:text="@string/general_settings"
+                android:textAlignment="viewStart"
+                android:layout_marginHorizontal="@dimen/activity_margin" />
 
             <LinearLayout
                 android:id="@+id/settings_general_settings_holder"
@@ -201,7 +205,9 @@
                 style="@style/SettingsSectionLabelStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/notifications" />
+                android:text="@string/notifications"
+                android:textAlignment="viewStart"
+                android:layout_marginHorizontal="@dimen/activity_margin" />
 
             <LinearLayout
                 android:id="@+id/settings_notifications_holder"
@@ -257,7 +263,9 @@
                 style="@style/SettingsSectionLabelStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/outgoing_messages" />
+                android:text="@string/outgoing_messages"
+                android:textAlignment="viewStart"
+                android:layout_marginHorizontal="@dimen/activity_margin" />
 
             <LinearLayout
                 android:id="@+id/settings_outgoing_messages_holder"

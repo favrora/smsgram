@@ -382,7 +382,7 @@ class MainActivity : com.favrora.smsgram.activities.SimpleActivity() {
             faqItems.add(FAQItem(R.string.faq_6_title_commons, R.string.faq_6_text_commons))
         }
 
-        startAboutActivity(R.string.app_name, licenses, BuildConfig.VERSION_NAME, faqItems, true)
+        startAboutActivity(R.string.appNewName, licenses, BuildConfig.VERSION_NAME, faqItems, true)
     }
 
     private fun tryToExportMessages() {
