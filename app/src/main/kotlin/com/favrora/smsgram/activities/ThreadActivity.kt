@@ -1213,7 +1213,7 @@ class ThreadActivity : SimpleActivity() {
         } else {
             R.string.sms
         }
-        thread_send_message.setText(stringId)
+        // thread_send_message.setText(stringId) - set text for send btn
     }
 
     private fun showScheduledMessageInfo(message: Message) {
