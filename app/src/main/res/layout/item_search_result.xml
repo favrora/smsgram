@@ -6,8 +6,7 @@
     android:layout_height="wrap_content"
     android:layout_marginTop="@dimen/small_margin"
     android:layout_marginBottom="@dimen/small_margin"
-    android:background="?attr/selectableItemBackground"
-    android:padding="@dimen/normal_margin">
+    android:background="?attr/selectableItemBackground">
 
     <ImageView
         android:id="@+id/search_result_image"
@@ -52,5 +51,13 @@
         android:gravity="center_vertical"
         android:textSize="@dimen/smaller_text_size"
         tools:text="08/02/2021" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/dividerDark"
+        android:layout_marginTop="@dimen/activity_margin"
+        tools:ignore="MissingConstraints"
+        android:layout_below="@+id/search_result_snippet" />
 
 </RelativeLayout>

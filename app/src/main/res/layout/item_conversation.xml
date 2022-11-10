@@ -13,8 +13,7 @@
         android:id="@+id/conversation_holder"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="@dimen/activity_margin"
-        android:paddingBottom="@dimen/activity_margin">
+        android:paddingTop="@dimen/activity_margin">
 
         <ImageView
             android:id="@+id/conversation_image"
@@ -102,6 +101,14 @@
             android:textDirection="locale"
             android:textSize="@dimen/smaller_text_size"
             tools:text="13:30" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/dividerDark"
+            android:layout_marginTop="15dp"
+            tools:ignore="MissingConstraints"
+            android:layout_below="@+id/conversation_date" />
 
     </RelativeLayout>
 </FrameLayout>

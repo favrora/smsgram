@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <item name="color_primary" type="color">#0077FF</item>
+
+    <item name="backgroundDark" type="color">#182432</item>
+    <item name="dividerDark" type="color">#090C10</item>
+
 </resources>

@@ -123,7 +123,7 @@ class MainActivity : com.favrora.smsgram.activities.SimpleActivity() {
                 R.id.settings -> launchSettings()
                 R.id.export_messages -> tryToExportMessages()
                 R.id.import_messages -> tryImportMessages()
-                R.id.about -> launchAbout()
+                R.id.about -> launchAbout() // show about screen
                 else -> return@setOnMenuItemClickListener false
             }
             return@setOnMenuItemClickListener true

@@ -24,6 +24,7 @@
         android:id="@+id/new_conversation_nested_scrollview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/backgroundDark"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <RelativeLayout
@@ -61,7 +62,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="1px"
                 android:layout_below="@+id/new_conversation_address"
-                android:background="@color/divider_grey"
+                android:background="@color/dividerDark"
                 android:importantForAccessibility="no" />
 
             <com.simplemobiletools.commons.views.MyTextView
@@ -108,6 +109,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/suggestions_label"
+                android:paddingHorizontal="@dimen/activity_margin"
                 android:layout_marginBottom="@dimen/medium_margin"
                 android:overScrollMode="never"
                 android:scrollbars="none">
