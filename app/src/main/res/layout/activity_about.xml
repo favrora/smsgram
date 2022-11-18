@@ -42,7 +42,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/activity_margin"
-                android:gravity="center_horizontal"
+                android:textAlignment="viewStart"
+                android:layout_marginHorizontal="@dimen/activity_margin"
+                android:textColor="@color/color_primary"
                 android:text="@string/support"
                 android:textSize="@dimen/big_text_size" />
 
@@ -51,7 +53,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/medium_margin"
-                android:background="@drawable/section_holder_stroke"
                 android:orientation="vertical">
 
                 <RelativeLayout
@@ -115,12 +116,21 @@
                 </RelativeLayout>
             </LinearLayout>
 
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/dividerDark"
+                android:layout_marginTop="15dp"
+                tools:ignore="MissingConstraints" />
+
             <TextView
                 android:id="@+id/about_help_us"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/activity_margin"
-                android:gravity="center_horizontal"
+                android:textAlignment="viewStart"
+                android:layout_marginHorizontal="@dimen/activity_margin"
+                android:textColor="@color/color_primary"
                 android:text="@string/help_us"
                 android:textSize="@dimen/big_text_size" />
 
@@ -129,7 +139,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/medium_margin"
-                android:background="@drawable/section_holder_stroke"
                 android:orientation="vertical">
 
                 <RelativeLayout
@@ -194,6 +203,7 @@
 
                 <RelativeLayout
                     android:id="@+id/about_contributors_holder"
+                    android:visibility="gone"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/ripple_bottom_corners"
@@ -256,6 +266,7 @@
 
             <TextView
                 android:id="@+id/about_social"
+                android:visibility="gone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/activity_margin"
@@ -265,10 +276,10 @@
 
             <LinearLayout
                 android:id="@+id/about_social_holder"
+                android:visibility="gone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/medium_margin"
-                android:background="@drawable/section_holder_stroke"
                 android:orientation="vertical">
 
                 <RelativeLayout
@@ -362,12 +373,21 @@
                 </RelativeLayout>
             </LinearLayout>
 
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/dividerDark"
+                android:layout_marginTop="15dp"
+                tools:ignore="MissingConstraints" />
+
             <TextView
                 android:id="@+id/about_other"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/activity_margin"
-                android:gravity="center_horizontal"
+                android:textAlignment="viewStart"
+                android:layout_marginHorizontal="@dimen/activity_margin"
+                android:textColor="@color/color_primary"
                 android:text="@string/other"
                 android:textSize="@dimen/big_text_size" />
 
@@ -376,12 +396,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/medium_margin"
-                android:background="@drawable/section_holder_stroke"
                 android:orientation="vertical">
 
                 <RelativeLayout
                     android:id="@+id/about_get_simple_phone_holder"
                     android:layout_width="match_parent"
+                    android:visibility="gone"
                     android:layout_height="wrap_content"
                     android:background="@drawable/ripple_top_corners"
                     android:padding="@dimen/medium_margin">
@@ -412,6 +432,7 @@
                 <RelativeLayout
                     android:id="@+id/about_more_apps_holder"
                     android:layout_width="match_parent"
+                    android:visibility="gone"
                     android:layout_height="wrap_content"
                     android:background="@drawable/ripple_background"
                     android:padding="@dimen/medium_margin">
@@ -563,6 +584,7 @@
 
             <com.favrora.commons.views.MyTextView
                 android:id="@+id/footer"
+                android:visibility="gone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/medium_margin"

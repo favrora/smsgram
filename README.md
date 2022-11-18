@@ -1,6 +1,6 @@
 # Rename app
 
-com.simplemobiletools.smsmessenger => com.favrora.smsgram
+com.simplemobiletools.smsmessenger => com.favrora.prosms
 
 Удалить: android:background="@drawable/section_holder_stroke"
 
