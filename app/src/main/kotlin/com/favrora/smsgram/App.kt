@@ -1,7 +1,7 @@
 package com.favrora.smsgram
 
 import android.app.Application
-import com.simplemobiletools.commons.extensions.checkUseEnglish
+import com.favrora.commons.extensions.checkUseEnglish
 
 class App : Application() {
     override fun onCreate() {

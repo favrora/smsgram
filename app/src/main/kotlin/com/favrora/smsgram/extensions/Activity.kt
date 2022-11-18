@@ -4,10 +4,10 @@ import android.app.Activity
 import android.content.ActivityNotFoundException
 import android.content.Intent
 import android.net.Uri
-import com.simplemobiletools.commons.extensions.getMimeType
-import com.simplemobiletools.commons.extensions.hideKeyboard
-import com.simplemobiletools.commons.extensions.showErrorToast
-import com.simplemobiletools.commons.extensions.toast
+import com.favrora.commons.extensions.getMimeType
+import com.favrora.commons.extensions.hideKeyboard
+import com.favrora.commons.extensions.showErrorToast
+import com.favrora.commons.extensions.toast
 import com.favrora.smsgram.R
 import java.util.*
 

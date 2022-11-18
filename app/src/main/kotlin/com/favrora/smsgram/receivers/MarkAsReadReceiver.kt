@@ -3,8 +3,8 @@ package com.favrora.smsgram.receivers
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import com.simplemobiletools.commons.extensions.notificationManager
-import com.simplemobiletools.commons.helpers.ensureBackgroundThread
+import com.favrora.commons.extensions.notificationManager
+import com.favrora.commons.helpers.ensureBackgroundThread
 import com.favrora.smsgram.extensions.conversationsDB
 import com.favrora.smsgram.extensions.markThreadMessagesRead
 import com.favrora.smsgram.extensions.updateUnreadCountBadge

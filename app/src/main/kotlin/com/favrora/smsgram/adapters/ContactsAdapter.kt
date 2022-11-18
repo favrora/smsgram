@@ -8,11 +8,11 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import com.bumptech.glide.Glide
-import com.simplemobiletools.commons.adapters.MyRecyclerViewAdapter
-import com.simplemobiletools.commons.extensions.getTextSize
-import com.simplemobiletools.commons.helpers.SimpleContactsHelper
-import com.simplemobiletools.commons.models.SimpleContact
-import com.simplemobiletools.commons.views.MyRecyclerView
+import com.favrora.commons.adapters.MyRecyclerViewAdapter
+import com.favrora.commons.extensions.getTextSize
+import com.favrora.commons.helpers.SimpleContactsHelper
+import com.favrora.commons.models.SimpleContact
+import com.favrora.commons.views.MyRecyclerView
 import com.favrora.smsgram.R
 import com.favrora.smsgram.activities.SimpleActivity
 import java.util.*

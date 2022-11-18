@@ -13,11 +13,11 @@ import android.net.Uri
 import android.os.Bundle
 import android.provider.Telephony
 import android.widget.Toast
-import com.simplemobiletools.commons.dialogs.FilePickerDialog
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.helpers.*
-import com.simplemobiletools.commons.models.FAQItem
-import com.simplemobiletools.commons.models.Release
+import com.favrora.commons.dialogs.FilePickerDialog
+import com.favrora.commons.extensions.*
+import com.favrora.commons.helpers.*
+import com.favrora.commons.models.FAQItem
+import com.favrora.commons.models.Release
 import com.favrora.smsgram.BuildConfig
 import com.favrora.smsgram.R
 import com.favrora.smsgram.adapters.ConversationsAdapter

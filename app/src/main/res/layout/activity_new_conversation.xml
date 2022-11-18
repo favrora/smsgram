@@ -32,7 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <com.simplemobiletools.commons.views.MyEditText
+            <com.favrora.commons.views.MyEditText
                 android:id="@+id/new_conversation_address"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/normal_icon_size"
@@ -65,7 +65,7 @@
                 android:background="@color/dividerDark"
                 android:importantForAccessibility="no" />
 
-            <com.simplemobiletools.commons.views.MyTextView
+            <com.favrora.commons.views.MyTextView
                 android:id="@+id/no_contacts_placeholder"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -81,7 +81,7 @@
                 android:textStyle="italic"
                 android:visibility="gone" />
 
-            <com.simplemobiletools.commons.views.MyTextView
+            <com.favrora.commons.views.MyTextView
                 android:id="@+id/no_contacts_placeholder_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -94,7 +94,7 @@
                 android:textSize="@dimen/bigger_text_size"
                 android:visibility="gone" />
 
-            <com.simplemobiletools.commons.views.MyTextView
+            <com.favrora.commons.views.MyTextView
                 android:id="@+id/suggestions_label"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -123,7 +123,7 @@
                     android:showDividers="middle" />
             </HorizontalScrollView>
 
-            <com.simplemobiletools.commons.views.MyRecyclerView
+            <com.favrora.commons.views.MyRecyclerView
                 android:id="@+id/contacts_list"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -132,7 +132,7 @@
                 android:layoutAnimation="@anim/layout_animation"
                 android:overScrollMode="ifContentScrolls"
                 android:scrollbars="none"
-                app:layoutManager="com.simplemobiletools.commons.views.MyLinearLayoutManager" />
+                app:layoutManager="com.favrora.commons.views.MyLinearLayoutManager" />
 
             <com.reddit.indicatorfastscroll.FastScrollerView
                 android:id="@+id/contacts_letter_fastscroller"

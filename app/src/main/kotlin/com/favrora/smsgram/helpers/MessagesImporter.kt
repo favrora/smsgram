@@ -3,8 +3,8 @@ package com.favrora.smsgram.helpers
 import android.content.Context
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import com.simplemobiletools.commons.extensions.showErrorToast
-import com.simplemobiletools.commons.helpers.ensureBackgroundThread
+import com.favrora.commons.extensions.showErrorToast
+import com.favrora.commons.helpers.ensureBackgroundThread
 import com.favrora.smsgram.extensions.*
 import com.favrora.smsgram.helpers.MessagesImporter.ImportResult.*
 import com.favrora.smsgram.models.ExportedMessage

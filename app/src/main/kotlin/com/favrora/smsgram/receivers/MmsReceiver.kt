@@ -5,9 +5,9 @@ import android.net.Uri
 import android.os.Handler
 import android.os.Looper
 import com.bumptech.glide.Glide
-import com.simplemobiletools.commons.extensions.isNumberBlocked
-import com.simplemobiletools.commons.extensions.normalizePhoneNumber
-import com.simplemobiletools.commons.helpers.ensureBackgroundThread
+import com.favrora.commons.extensions.isNumberBlocked
+import com.favrora.commons.extensions.normalizePhoneNumber
+import com.favrora.commons.helpers.ensureBackgroundThread
 import com.favrora.smsgram.R
 import com.favrora.smsgram.extensions.*
 import com.favrora.smsgram.helpers.refreshMessages

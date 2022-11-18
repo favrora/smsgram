@@ -17,8 +17,8 @@ import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 import com.bumptech.glide.request.RequestListener
 import com.bumptech.glide.request.RequestOptions
 import com.bumptech.glide.request.target.Target
-import com.simplemobiletools.commons.activities.BaseSimpleActivity
-import com.simplemobiletools.commons.extensions.*
+import com.favrora.commons.activities.BaseSimpleActivity
+import com.favrora.commons.extensions.*
 import com.favrora.smsgram.R
 import com.favrora.smsgram.activities.VCardViewerActivity
 import com.favrora.smsgram.extensions.*

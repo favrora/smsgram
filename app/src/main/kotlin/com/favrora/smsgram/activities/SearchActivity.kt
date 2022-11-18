@@ -11,8 +11,8 @@ import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.widget.SearchView
 import androidx.core.view.MenuItemCompat
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.helpers.ensureBackgroundThread
+import com.favrora.commons.extensions.*
+import com.favrora.commons.helpers.ensureBackgroundThread
 import com.favrora.smsgram.R
 import com.favrora.smsgram.adapters.SearchResultsAdapter
 import com.favrora.smsgram.extensions.conversationsDB

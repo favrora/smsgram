@@ -3,9 +3,9 @@ package com.favrora.smsgram.activities
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
-import com.simplemobiletools.commons.extensions.normalizePhoneNumber
-import com.simplemobiletools.commons.extensions.sendEmailIntent
-import com.simplemobiletools.commons.helpers.NavigationIcon
+import com.favrora.commons.extensions.normalizePhoneNumber
+import com.favrora.commons.extensions.sendEmailIntent
+import com.favrora.commons.helpers.NavigationIcon
 import com.favrora.smsgram.R
 import com.favrora.smsgram.adapters.VCardViewerAdapter
 import com.favrora.smsgram.extensions.dialNumber

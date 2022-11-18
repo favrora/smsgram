@@ -6,11 +6,11 @@ import android.os.Bundle
 import android.view.WindowManager
 import com.google.gson.Gson
 import com.reddit.indicatorfastscroll.FastScrollItemIndicator
-import com.simplemobiletools.commons.dialogs.RadioGroupDialog
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.helpers.*
-import com.simplemobiletools.commons.models.RadioItem
-import com.simplemobiletools.commons.models.SimpleContact
+import com.favrora.commons.dialogs.RadioGroupDialog
+import com.favrora.commons.extensions.*
+import com.favrora.commons.helpers.*
+import com.favrora.commons.models.RadioItem
+import com.favrora.commons.models.SimpleContact
 import com.favrora.smsgram.R
 import com.favrora.smsgram.adapters.ContactsAdapter
 import com.favrora.smsgram.extensions.getSuggestedContacts

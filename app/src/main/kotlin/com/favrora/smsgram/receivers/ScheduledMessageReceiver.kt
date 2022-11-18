@@ -4,8 +4,8 @@ import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.os.PowerManager
-import com.simplemobiletools.commons.extensions.showErrorToast
-import com.simplemobiletools.commons.helpers.ensureBackgroundThread
+import com.favrora.commons.extensions.showErrorToast
+import com.favrora.commons.helpers.ensureBackgroundThread
 import com.favrora.smsgram.R
 import com.favrora.smsgram.extensions.conversationsDB
 import com.favrora.smsgram.extensions.deleteScheduledMessage

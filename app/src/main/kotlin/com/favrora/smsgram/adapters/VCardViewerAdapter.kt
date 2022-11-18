@@ -10,8 +10,8 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.load.resource.bitmap.RoundedCorners
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 import com.bumptech.glide.request.RequestOptions
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.helpers.SimpleContactsHelper
+import com.favrora.commons.extensions.*
+import com.favrora.commons.helpers.SimpleContactsHelper
 import com.favrora.smsgram.R
 import com.favrora.smsgram.activities.SimpleActivity
 import com.favrora.smsgram.models.VCardPropertyWrapper

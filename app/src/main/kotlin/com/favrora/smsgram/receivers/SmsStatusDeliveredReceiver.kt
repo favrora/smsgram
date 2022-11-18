@@ -7,7 +7,7 @@ import android.os.Handler
 import android.os.Looper
 import android.provider.Telephony
 import com.klinker.android.send_message.DeliveredReceiver
-import com.simplemobiletools.commons.helpers.ensureBackgroundThread
+import com.favrora.commons.helpers.ensureBackgroundThread
 import com.favrora.smsgram.extensions.messagesDB
 import com.favrora.smsgram.extensions.updateMessageStatus
 import com.favrora.smsgram.helpers.refreshMessages

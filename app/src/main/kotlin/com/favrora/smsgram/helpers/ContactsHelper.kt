@@ -7,13 +7,13 @@ import android.provider.ContactsContract.CommonDataKinds.*
 import android.provider.ContactsContract.Data
 import android.text.TextUtils
 import android.util.SparseArray
-import com.simplemobiletools.commons.extensions.*
-import com.simplemobiletools.commons.models.PhoneNumber
-import com.simplemobiletools.commons.models.contacts.*
-import com.simplemobiletools.commons.models.contacts.Email
-import com.simplemobiletools.commons.models.contacts.Event
-import com.simplemobiletools.commons.models.contacts.Organization
-import com.simplemobiletools.commons.overloads.times
+import com.favrora.commons.extensions.*
+import com.favrora.commons.models.PhoneNumber
+import com.favrora.commons.models.contacts.*
+import com.favrora.commons.models.contacts.Email
+import com.favrora.commons.models.contacts.Event
+import com.favrora.commons.models.contacts.Organization
+import com.favrora.commons.overloads.times
 
 // based on the ContactsHelper from Simple-Contacts
 class ContactsHelper(val context: Context) {
