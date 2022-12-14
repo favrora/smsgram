@@ -1,6 +1,8 @@
 <resources>
 
-    <string name="package_name">com.favrora.smsgram</string>
+    <string name="package_name">com.favrora.prosms</string>
+
+    <string name="appNewName">Smsgram</string>
 
     <string name="mms_file_size_limit_100kb">100KB</string>
     <string name="mms_file_size_limit_200kb">200KB</string>

@@ -15,8 +15,9 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="@color/color_primary"
+            android:elevation="8dp"
             app:menu="@menu/menu_main"
-            app:title="@string/app_launcher_name"
+            app:title="@string/appNewName"
             app:titleTextAppearance="@style/AppTheme.ActionBar.TitleTextStyle" />
 
     </com.google.android.material.appbar.AppBarLayout>
@@ -25,6 +26,7 @@
         android:id="@+id/main_nested_scrollview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/backgroundDark"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <androidx.coordinatorlayout.widget.CoordinatorLayout
@@ -37,7 +39,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                <com.simplemobiletools.commons.views.MyTextView
+                <com.favrora.commons.views.MyTextView
                     android:id="@+id/no_conversations_placeholder"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -52,7 +54,7 @@
                     android:textStyle="italic"
                     android:visibility="gone" />
 
-                <com.simplemobiletools.commons.views.MyTextView
+                <com.favrora.commons.views.MyTextView
                     android:id="@+id/no_conversations_placeholder_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -70,7 +72,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
-                    <com.simplemobiletools.commons.views.MyRecyclerView
+                    <com.favrora.commons.views.MyRecyclerView
                         android:id="@+id/conversations_list"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -78,18 +80,19 @@
                         android:layoutAnimation="@anim/layout_animation"
                         android:overScrollMode="ifContentScrolls"
                         android:scrollbars="none"
-                        app:layoutManager="com.simplemobiletools.commons.views.MyLinearLayoutManager" />
+                        app:layoutManager="com.favrora.commons.views.MyLinearLayoutManager" />
 
                 </com.qtalk.recyclerviewfastscroller.RecyclerViewFastScroller>
             </RelativeLayout>
 
-            <com.simplemobiletools.commons.views.MyFloatingActionButton
+            <com.favrora.commons.views.MyFloatingActionButton
                 android:id="@+id/conversations_fab"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom|end"
                 android:layout_margin="@dimen/activity_margin"
-                android:src="@drawable/ic_plus_vector" />
+                android:src="@drawable/ic_add_black_24dp"
+                app:shapeAppearanceOverlay="@style/icon_rounded" />
 
         </androidx.coordinatorlayout.widget.CoordinatorLayout>
     </RelativeLayout>

@@ -33,31 +33,34 @@
             android:id="@+id/settings_holder"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/backgroundDark"
             android:orientation="vertical">
 
             <TextView
                 android:id="@+id/settings_color_customization_label"
+                android:visibility="gone"
                 style="@style/SettingsSectionLabelStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/color_customization" />
+                android:text="@string/color_customization"
+                android:textAlignment="viewStart"
+                android:layout_marginHorizontal="@dimen/activity_margin" />
 
             <LinearLayout
                 android:id="@+id/settings_color_customization_holder"
+                android:visibility="gone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="@dimen/medium_margin"
-                android:background="@drawable/section_holder_stroke"
+                android:layout_marginVertical="@dimen/medium_margin"
                 android:orientation="vertical">
 
                 <RelativeLayout
                     android:id="@+id/settings_customize_colors_holder"
                     style="@style/SettingsHolderTextViewOneLinerStyle"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/ripple_all_corners">
+                    android:layout_height="wrap_content">
 
-                    <com.simplemobiletools.commons.views.MyTextView
+                    <com.favrora.commons.views.MyTextView
                         android:id="@+id/settings_customize_colors_label"
                         style="@style/SettingsTextLabelStyle"
                         android:layout_width="wrap_content"
@@ -72,31 +75,16 @@
                 style="@style/SettingsSectionLabelStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/general_settings" />
+                android:text="@string/general_settings"
+                android:textAlignment="viewStart"
+                android:layout_marginHorizontal="@dimen/activity_margin" />
 
             <LinearLayout
                 android:id="@+id/settings_general_settings_holder"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="@dimen/medium_margin"
-                android:background="@drawable/section_holder_stroke"
+                android:layout_marginVertical="@dimen/medium_margin"
                 android:orientation="vertical">
-
-                <RelativeLayout
-                    android:id="@+id/settings_purchase_thank_you_holder"
-                    style="@style/SettingsHolderTextViewOneLinerStyle"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/ripple_top_corners">
-
-                    <com.simplemobiletools.commons.views.MyTextView
-                        android:id="@+id/settings_purchase_thank_you"
-                        style="@style/SettingsTextLabelStyle"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/purchase_simple_thank_you" />
-
-                </RelativeLayout>
 
                 <RelativeLayout
                     android:id="@+id/settings_use_english_holder"
@@ -105,7 +93,7 @@
                     android:layout_height="wrap_content"
                     android:background="@drawable/ripple_background">
 
-                    <com.simplemobiletools.commons.views.MyAppCompatCheckbox
+                    <com.favrora.commons.views.MyAppCompatCheckbox
                         android:id="@+id/settings_use_english"
                         style="@style/SettingsCheckboxStyle"
                         android:layout_width="match_parent"
@@ -121,14 +109,14 @@
                     android:layout_height="wrap_content"
                     android:background="@drawable/ripple_background">
 
-                    <com.simplemobiletools.commons.views.MyTextView
+                    <com.favrora.commons.views.MyTextView
                         android:id="@+id/settings_language_label"
                         style="@style/SettingsTextLabelStyle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/language" />
 
-                    <com.simplemobiletools.commons.views.MyTextView
+                    <com.favrora.commons.views.MyTextView
                         android:id="@+id/settings_language"
                         style="@style/SettingsTextValueStyle"
                         android:layout_width="wrap_content"
@@ -139,29 +127,13 @@
                 </RelativeLayout>
 
                 <RelativeLayout
-                    android:id="@+id/settings_change_date_time_format_holder"
-                    style="@style/SettingsHolderTextViewOneLinerStyle"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/ripple_background">
-
-                    <com.simplemobiletools.commons.views.MyTextView
-                        android:id="@+id/settings_change_date_time_format"
-                        style="@style/SettingsTextLabelStyle"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/change_date_and_time_format" />
-
-                </RelativeLayout>
-
-                <RelativeLayout
                     android:id="@+id/settings_manage_blocked_numbers_holder"
                     style="@style/SettingsHolderTextViewOneLinerStyle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/ripple_background">
 
-                    <com.simplemobiletools.commons.views.MyTextView
+                    <com.favrora.commons.views.MyTextView
                         android:id="@+id/settings_manage_blocked_numbers"
                         style="@style/SettingsTextLabelStyle"
                         android:layout_width="wrap_content"
@@ -171,20 +143,36 @@
                 </RelativeLayout>
 
                 <RelativeLayout
+                    android:id="@+id/settings_change_date_time_format_holder"
+                    style="@style/SettingsHolderTextViewOneLinerStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ripple_background">
+
+                    <com.favrora.commons.views.MyTextView
+                        android:id="@+id/settings_change_date_time_format"
+                        style="@style/SettingsTextLabelStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/change_date_and_time_format" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
                     android:id="@+id/settings_font_size_holder"
                     style="@style/SettingsHolderTextViewStyle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/ripple_bottom_corners">
+                    android:background="@drawable/ripple_background">
 
-                    <com.simplemobiletools.commons.views.MyTextView
+                    <com.favrora.commons.views.MyTextView
                         android:id="@+id/settings_font_size_label"
                         style="@style/SettingsTextLabelStyle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/font_size" />
 
-                    <com.simplemobiletools.commons.views.MyTextView
+                    <com.favrora.commons.views.MyTextView
                         android:id="@+id/settings_font_size"
                         style="@style/SettingsTextValueStyle"
                         android:layout_width="wrap_content"
@@ -195,19 +183,27 @@
                 </RelativeLayout>
             </LinearLayout>
 
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/dividerDark"
+                android:layout_marginTop="15dp"
+                tools:ignore="MissingConstraints" />
+
             <TextView
                 android:id="@+id/settings_notifications_label"
                 style="@style/SettingsSectionLabelStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/notifications" />
+                android:text="@string/notifications"
+                android:textAlignment="viewStart"
+                android:layout_marginHorizontal="@dimen/activity_margin" />
 
             <LinearLayout
                 android:id="@+id/settings_notifications_holder"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="@dimen/medium_margin"
-                android:background="@drawable/section_holder_stroke"
+                android:layout_marginVertical="@dimen/medium_margin"
                 android:orientation="vertical">
 
                 <RelativeLayout
@@ -215,9 +211,9 @@
                     style="@style/SettingsHolderTextViewOneLinerStyle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/ripple_top_corners">
+                    android:background="@drawable/ripple_background">
 
-                    <com.simplemobiletools.commons.views.MyTextView
+                    <com.favrora.commons.views.MyTextView
                         android:id="@+id/settings_customize_notifications_label"
                         style="@style/SettingsTextLabelStyle"
                         android:layout_width="wrap_content"
@@ -231,16 +227,16 @@
                     style="@style/SettingsHolderTextViewStyle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/ripple_bottom_corners">
+                    android:background="@drawable/ripple_background">
 
-                    <com.simplemobiletools.commons.views.MyTextView
+                    <com.favrora.commons.views.MyTextView
                         android:id="@+id/settings_lock_screen_visibility_label"
                         style="@style/SettingsTextLabelStyle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/lock_screen_visibility" />
 
-                    <com.simplemobiletools.commons.views.MyTextView
+                    <com.favrora.commons.views.MyTextView
                         android:id="@+id/settings_lock_screen_visibility"
                         style="@style/SettingsTextValueStyle"
                         android:layout_width="wrap_content"
@@ -251,19 +247,27 @@
                 </RelativeLayout>
             </LinearLayout>
 
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/dividerDark"
+                android:layout_marginTop="15dp"
+                tools:ignore="MissingConstraints" />
+
             <TextView
                 android:id="@+id/settings_outgoing_messages_label"
                 style="@style/SettingsSectionLabelStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/outgoing_messages" />
+                android:text="@string/outgoing_messages"
+                android:textAlignment="viewStart"
+                android:layout_marginHorizontal="@dimen/activity_margin" />
 
             <LinearLayout
                 android:id="@+id/settings_outgoing_messages_holder"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="@dimen/medium_margin"
-                android:background="@drawable/section_holder_stroke"
+                android:layout_marginVertical="@dimen/medium_margin"
                 android:orientation="vertical">
 
                 <RelativeLayout
@@ -271,9 +275,9 @@
                     style="@style/SettingsHolderCheckboxStyle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/ripple_top_corners">
+                    android:background="@drawable/ripple_background">
 
-                    <com.simplemobiletools.commons.views.MyAppCompatCheckbox
+                    <com.favrora.commons.views.MyAppCompatCheckbox
                         android:id="@+id/settings_show_character_counter"
                         style="@style/SettingsCheckboxStyle"
                         android:layout_width="match_parent"
@@ -289,7 +293,7 @@
                     android:layout_height="wrap_content"
                     android:background="@drawable/ripple_background">
 
-                    <com.simplemobiletools.commons.views.MyAppCompatCheckbox
+                    <com.favrora.commons.views.MyAppCompatCheckbox
                         android:id="@+id/settings_use_simple_characters"
                         style="@style/SettingsCheckboxStyle"
                         android:layout_width="match_parent"
@@ -305,7 +309,7 @@
                     android:layout_height="wrap_content"
                     android:background="@drawable/ripple_background">
 
-                    <com.simplemobiletools.commons.views.MyAppCompatCheckbox
+                    <com.favrora.commons.views.MyAppCompatCheckbox
                         android:id="@+id/settings_enable_delivery_reports"
                         style="@style/SettingsCheckboxStyle"
                         android:layout_width="match_parent"
@@ -321,7 +325,7 @@
                     android:layout_height="wrap_content"
                     android:background="@drawable/ripple_background">
 
-                    <com.simplemobiletools.commons.views.MyAppCompatCheckbox
+                    <com.favrora.commons.views.MyAppCompatCheckbox
                         android:id="@+id/settings_send_long_message_mms"
                         style="@style/SettingsCheckboxStyle"
                         android:layout_width="match_parent"
@@ -337,7 +341,7 @@
                     android:layout_height="wrap_content"
                     android:background="@drawable/ripple_background">
 
-                    <com.simplemobiletools.commons.views.MyAppCompatCheckbox
+                    <com.favrora.commons.views.MyAppCompatCheckbox
                         android:id="@+id/settings_send_group_message_mms"
                         style="@style/SettingsCheckboxStyle"
                         android:layout_width="match_parent"
@@ -350,17 +354,17 @@
                     android:id="@+id/settings_mms_file_size_limit_holder"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/ripple_bottom_corners"
+                    android:background="@drawable/ripple_background"
                     android:padding="@dimen/activity_margin">
 
-                    <com.simplemobiletools.commons.views.MyTextView
+                    <com.favrora.commons.views.MyTextView
                         android:id="@+id/settings_mms_file_size_limit_label"
                         style="@style/SettingsTextLabelStyle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/mms_file_size_limit" />
 
-                    <com.simplemobiletools.commons.views.MyTextView
+                    <com.favrora.commons.views.MyTextView
                         android:id="@+id/settings_mms_file_size_limit"
                         style="@style/SettingsTextValueStyle"
                         android:layout_width="wrap_content"

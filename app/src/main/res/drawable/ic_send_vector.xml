@@ -1,3 +1,19 @@
+<!-- Old simple icon
 <vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="24dp" android:height="24dp" android:viewportWidth="24" android:viewportHeight="24">
     <path android:fillColor="#FFFFFFFF" android:pathData="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+</vector>-->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:viewportWidth="256"
+    android:viewportHeight="256"
+    android:width="30dp"
+    android:height="30dp">
+    <group
+        android:scaleX="5.12"
+        android:scaleY="5.12">
+        <path
+            android:pathData="M44.4375 4.15625l-39.84375 17.125c-0.35547 0.15234 -0.58203 0.51563 -0.59375 0.90625c-0.01172 0.39063 0.21484 0.73047 0.5625 0.90625l13.9375 6.96875zM45.84375 5.5625l-25.90625 25.9375l6.96875 13.9375c0.17188 0.33984 0.52734 0.5625 0.90625 0.5625h0.03125c0.39063 -0.01172 0.71875 -0.23828 0.875 -0.59375z"
+            android:fillColor="#FFFFFF"
+            android:strokeMiterLimit="10" />
+    </group>
 </vector>

@@ -6,4 +6,11 @@
         <item name="cornerFamily">rounded</item>
         <item name="cornerSize">@dimen/normal_margin</item>
     </style>
+
+    <style name="icon_rounded">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+        <item name="elevation">10dp</item>
+    </style>
+
 </resources>

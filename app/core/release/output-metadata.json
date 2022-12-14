@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.favrora.prosms",
+  "variantName": "coreRelease",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 2224,
+      "versionName": "1.10.1",
+      "outputFile": "sms-messenger-core-release.apk"
+    }
+  ],
+  "elementType": "File"
+}

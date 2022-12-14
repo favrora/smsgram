@@ -13,11 +13,11 @@ android {
     compileSdkVersion 33
 
     defaultConfig {
-        applicationId "com.favrora.smsgram"
+        applicationId "com.favrora.prosms"
         minSdkVersion 22
         targetSdkVersion 33
-        versionCode 62
-        versionName "5.16.1"
+        versionCode 2224
+        versionName "1.10.1"
         setProperty("archivesBaseName", "sms-messenger")
     }
 
@@ -63,7 +63,7 @@ android {
 }
 
 dependencies {
-    implementation 'com.github.SimpleMobileTools:Simple-Commons:9162225f33'
+    implementation 'com.favrora.commons:commons:1.0.3'
     implementation 'org.greenrobot:eventbus:3.3.1'
     implementation 'com.github.tibbi:IndicatorFastScroll:4524cd0b61'
     implementation 'com.github.tibbi:android-smsmms:3581774c39'

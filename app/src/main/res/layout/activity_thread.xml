@@ -26,7 +26,8 @@
         android:id="@+id/thread_holder"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginBottom="@dimen/tiny_margin"
+        android:paddingBottom="@dimen/tiny_margin"
+        android:background="@color/backgroundDark"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <RelativeLayout
@@ -64,7 +65,7 @@
                 android:background="@color/divider_grey"
                 android:importantForAccessibility="no" />
 
-            <com.simplemobiletools.commons.views.MyAutoCompleteTextView
+            <com.favrora.commons.views.MyAutoCompleteTextView
                 android:id="@+id/add_contact_or_number"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/normal_icon_size"
@@ -112,7 +113,7 @@
             app:layout_constraintTop_toBottomOf="@id/thread_add_contacts"
             app:supportSwipeToRefresh="true">
 
-            <com.simplemobiletools.commons.views.MyRecyclerView
+            <com.favrora.commons.views.MyRecyclerView
                 android:id="@+id/thread_messages_list"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -120,7 +121,7 @@
                 android:overScrollMode="ifContentScrolls"
                 android:paddingBottom="@dimen/small_margin"
                 android:scrollbars="none"
-                app:layoutManager="com.simplemobiletools.commons.views.MyLinearLayoutManager"
+                app:layoutManager="com.favrora.commons.views.MyLinearLayoutManager"
                 app:stackFromEnd="true"
                 tools:itemCount="3"
                 tools:listitem="@layout/item_sent_message" />
@@ -167,7 +168,7 @@
             app:layout_goneMarginBottom="@dimen/medium_margin"
             tools:visibility="visible">
 
-            <com.simplemobiletools.commons.views.MyTextView
+            <com.favrora.commons.views.MyTextView
                 android:id="@+id/scheduled_message_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -219,7 +220,7 @@
             tools:listitem="@layout/item_attachment_document_preview"
             tools:visibility="visible" />
 
-        <com.simplemobiletools.commons.views.MyEditText
+        <com.favrora.commons.views.MyEditText
             android:id="@+id/thread_type_message"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -265,7 +266,7 @@
             tools:textColor="@color/dark_grey"
             tools:visibility="visible" />
 
-        <com.simplemobiletools.commons.views.MyTextView
+        <com.favrora.commons.views.MyTextView
             android:id="@+id/thread_character_counter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -281,7 +282,7 @@
             tools:ignore="HardcodedText"
             tools:visibility="visible" />
 
-        <com.simplemobiletools.commons.views.MyButton
+        <com.favrora.commons.views.MyButton
             android:id="@+id/thread_send_message"
             android:layout_width="@dimen/normal_icon_size"
             android:layout_height="@dimen/normal_icon_size"
@@ -289,11 +290,11 @@
             android:alpha="0.4"
             android:background="?selectableItemBackgroundBorderless"
             android:clickable="false"
+            android:text=""
+            android:textSize="0sp"
             android:contentDescription="@string/ok"
-            android:drawableTop="@drawable/ic_send_vector"
-            android:paddingVertical="@dimen/small_margin"
-            android:text="@string/sms"
-            android:textSize="@dimen/smaller_text_size"
+            android:drawableStart="@drawable/ic_send_vector"
+            android:padding="@dimen/medium_margin"
             app:layout_constraintBottom_toTopOf="@id/attachment_picker_divider"
             app:layout_constraintEnd_toEndOf="parent" />
 
