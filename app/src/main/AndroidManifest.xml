@@ -14,11 +14,9 @@
     <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-
     <uses-permission
         android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         android:maxSdkVersion="28" />
-
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission
         android:name="android.permission.USE_FINGERPRINT"
@@ -32,36 +30,49 @@
     <uses-feature android:name="android.hardware.telephony" />
 
     <application
-        android:name="com.favrora.prosms.App"
+        android:name=".App"
         android:allowBackup="true"
         android:appCategory="productivity"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/appNewName"
         android:roundIcon="@mipmap/ic_launcher"
         android:theme="@style/AppTheme">
-
+        <activity
+            android:name=".activities.AgreementA"
+            android:exported="false" />
         <activity
             android:name=".activities.SplashActivity"
             android:exported="false"
             android:theme="@style/SplashTheme" />
 
-        <activity
-            android:name="com.favrora.prosms.activities.MainActivity"
-            android:exported="true" />
+        <activity-alias
+            android:name=".activities.SplashActivity.Orange"
+            android:enabled="true"
+            android:exported="true"
+            android:icon="@mipmap/ic_launcher"
+            android:roundIcon="@mipmap/ic_launcher"
+            android:targetActivity=".activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity
+            android:name=".activities.MainActivity"
+            android:exported="true" />
         <activity
             android:name=".activities.ThreadActivity"
             android:exported="false"
-            android:parentActivityName="com.favrora.prosms.activities.MainActivity"
+            android:parentActivityName=".activities.MainActivity"
             android:windowSoftInputMode="adjustResize" />
-
         <activity
             android:name=".activities.SearchActivity"
             android:exported="false"
             android:label=""
-            android:parentActivityName="com.favrora.prosms.activities.MainActivity"
+            android:parentActivityName=".activities.MainActivity"
             android:resizeableActivity="true">
-
             <meta-data
                 android:name="android.app.default_searchable"
                 android:resource="@xml/searchable" />
@@ -70,12 +81,10 @@
                 <action android:name="android.intent.action.SEARCH" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".activities.NewConversationActivity"
             android:exported="true"
-            android:parentActivityName="com.favrora.prosms.activities.MainActivity">
-
+            android:parentActivityName=".activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
                 <action android:name="android.intent.action.SENDTO" />
@@ -89,52 +98,47 @@
                 <data android:scheme="mms" />
                 <data android:scheme="mmsto" />
             </intent-filter>
-
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
+
                 <category android:name="android.intent.category.DEFAULT" />
 
                 <data android:mimeType="*/*" />
             </intent-filter>
-
             <intent-filter>
                 <action android:name="android.intent.action.SEND_MULTIPLE" />
+
                 <category android:name="android.intent.category.DEFAULT" />
 
                 <data android:mimeType="*/*" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".activities.SettingsActivity"
             android:exported="true"
             android:label="@string/settings"
-            android:parentActivityName="com.favrora.prosms.activities.MainActivity">
-
+            android:parentActivityName=".activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.APPLICATION_PREFERENCES" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity
             android:name="com.favrora.commons.activities.AboutActivity"
             android:exported="false"
             android:label="@string/about"
-            android:parentActivityName="com.favrora.prosms.activities.MainActivity" />
-
+            android:parentActivityName=".activities.MainActivity" />
         <activity
             android:name="com.favrora.commons.activities.CustomizationActivity"
             android:exported="false"
             android:label="@string/customize_colors"
             android:parentActivityName=".activities.SettingsActivity" />
-
         <activity
             android:name="com.favrora.commons.activities.ManageBlockedNumbersActivity"
             android:exported="false"
             android:label="@string/blocked_numbers"
             android:parentActivityName=".activities.SettingsActivity" />
-
         <activity
             android:name=".activities.VCardViewerActivity"
             android:exported="false"
@@ -147,6 +151,7 @@
             android:permission="android.permission.SEND_RESPOND_VIA_MESSAGE">
             <intent-filter>
                 <action android:name="android.intent.action.RESPOND_VIA_MESSAGE" />
+
                 <category android:name="android.intent.category.DEFAULT" />
 
                 <data android:scheme="sms" />
@@ -155,13 +160,10 @@
                 <data android:scheme="mmsto" />
             </intent-filter>
         </service>
-
         <service android:name="com.android.mms.transaction.TransactionService" />
 
         <receiver android:name=".receivers.SmsStatusSentReceiver" />
-
         <receiver android:name=".receivers.SmsStatusDeliveredReceiver" />
-
         <receiver
             android:name=".receivers.SmsReceiver"
             android:exported="true"
@@ -170,7 +172,6 @@
                 <action android:name="android.provider.Telephony.SMS_DELIVER" />
             </intent-filter>
         </receiver>
-
         <receiver
             android:name="com.android.mms.transaction.PushReceiver"
             android:exported="true"
@@ -182,17 +183,14 @@
                 <data android:mimeType="application/vnd.wap.sic" />
             </intent-filter>
         </receiver>
-
         <receiver
             android:name=".receivers.MmsSentReceiver"
             android:exported="true"
             android:taskAffinity="com.klinker.android.messaging.MMS_SENT" />
-
         <receiver
             android:name=".receivers.MmsReceiver"
             android:exported="true"
             android:taskAffinity="com.klinker.android.messaging.MMS_RECEIVED" />
-
         <receiver
             android:name=".receivers.MarkAsReadReceiver"
             android:enabled="true"
@@ -201,7 +199,6 @@
                 <action android:name="com.favrora.prosms.action.mark_as_read" />
             </intent-filter>
         </receiver>
-
         <receiver
             android:name=".receivers.DirectReplyReceiver"
             android:enabled="true"
@@ -210,7 +207,6 @@
                 <action android:name="com.favrora.prosms.action.reply" />
             </intent-filter>
         </receiver>
-
         <receiver
             android:name=".receivers.ScheduledMessageReceiver"
             android:exported="false" />
@@ -224,19 +220,6 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/provider_paths" />
         </provider>
-
-        <activity-alias
-            android:name=".activities.SplashActivity.Orange"
-            android:enabled="true"
-            android:exported="true"
-            android:icon="@mipmap/ic_launcher"
-            android:roundIcon="@mipmap/ic_launcher"
-            android:targetActivity=".activities.SplashActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity-alias>
-
     </application>
+
 </manifest>

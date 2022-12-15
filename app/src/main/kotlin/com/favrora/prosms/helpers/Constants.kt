@@ -76,6 +76,9 @@ const val CAPTURE_AUDIO_INTENT = 46
 const val PICK_DOCUMENT_INTENT = 47
 const val PICK_CONTACT_INTENT = 48
 
+const val TERMS_OF_USE_URL = "https://favrora.com/sms-app-privacy/"
+const val PRIVACY_POLICY_URL = "https://favrora.com/sms-app-privacy/"
+
 fun refreshMessages() {
     EventBus.getDefault().post(Events.RefreshMessages())
 }
