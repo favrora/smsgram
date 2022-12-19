@@ -16,8 +16,8 @@ android {
         applicationId "com.favrora.prosms"
         minSdkVersion 22
         targetSdkVersion 33
-        versionCode 2224
-        versionName "1.10.1"
+        versionCode 2225
+        versionName "1.10.2"
         setProperty("archivesBaseName", "sms-messenger")
     }
 
