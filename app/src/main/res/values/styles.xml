@@ -13,4 +13,19 @@
         <item name="elevation">10dp</item>
     </style>
 
+    <style name="toolbar_title">
+        <item name="fontFamily">@font/mastoe</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">34sp</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <style name="start_title">
+        <item name="fontFamily">@font/mastoe</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
 </resources>

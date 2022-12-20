@@ -37,7 +37,8 @@
                 android:includeFontPadding="false"
                 android:text="@string/appNewName"
                 android:textColor="@color/md_grey_white"
-                android:textSize="@dimen/_18sdp" />
+                android:textAppearance="@style/start_title"
+                android:textSize="@dimen/_32sdp" />
 
 
         </LinearLayout>
