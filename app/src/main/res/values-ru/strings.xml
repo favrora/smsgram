@@ -91,6 +91,14 @@
     <string name="faq_2_text">Размер MMS ограничивается операторами связи, можно попробовать уменьшить лимит в настройках приложения.</string>
     <string name="faq_3_title">Приложение поддерживает отложенную отправку сообщений\?</string>
     <string name="faq_3_text">Да, вы можете запланировать отправку сообщений в будущем, нажав и удерживая кнопку \"Отправить\" и выбрав нужную дату и время.</string>
+    <string name="get_started">Начать</string>
+    <string name="terms_of_use_message">Нажимая \'Начать\', вы принимаете Условия использования и Политика конфиденциальности</string>
+    <string name="messages_privacy_description">Мы не передаем и не читаем ваши сообщения другим, мы просто управляем ими лучше и с дополнительными функциями.</string>
+    <string name="contacts_privacy_description">Мы не делимся вашими контактами с другими, они просто используются для управления вашей записью в приложении, как и в приложении по умолчанию.</string>
+    <string name="contacts">Контакты</string>
+    <string name="must_select_terms_and_condition">Необходимо согласиться с условиями</string>
+    <string name="privacy_policy_">Политика конфиденциальности</string>
+    <string name="terms_of_use">Условия использования</string>
     <!--
         Haven't found some strings? There's more at
         https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res

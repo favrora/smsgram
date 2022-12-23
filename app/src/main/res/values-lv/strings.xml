@@ -88,6 +88,14 @@
     <string name="faq_2_text">MMS size is limited by carriers, you can try setting a smaller limit in the app settings.</string>
     <string name="faq_3_title">Does the app support scheduled messages?</string>
     <string name="faq_3_text">Yes, you can schedule messages to be sent in the future by long pressing the Send button and picking the desired date and time.</string>
+    <string name="get_started">Get Started</string>
+    <string name="terms_of_use_message">By clicking \'Get Started\' you accept the Terms of Use and Privacy Policy</string>
+    <string name="messages_privacy_description">We do not share or read your messages with others we just manage them in better ways and with extra features.</string>
+    <string name="contacts_privacy_description">We do not share your contacts with others they are just used to manage your record in the app just like the default app.</string>
+    <string name="contacts">Contacts</string>
+    <string name="must_select_terms_and_condition">Must select terms and condition</string>
+    <string name="privacy_policy_">Privacy Policy</string>
+    <string name="terms_of_use">Terms of Use</string>
     <!--
         Haven't found some strings? There's more at
         https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res

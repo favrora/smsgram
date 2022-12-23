@@ -85,6 +85,14 @@
     <string name="faq_2_text">O tamaño dos MMS está limitado polos operadores; podes tentar establecer un límite máis pequeno na configuración da aplicación.</string>
     <string name="faq_3_title">A aplicación admite mensaxes programadas\?</string>
     <string name="faq_3_text">Si, pode programalo envío de mensaxes no futuro premendo no botón Enviar e escollendo a data e a hora desexadas.</string>
+    <string name="get_started">Get Started</string>
+    <string name="terms_of_use_message">By clicking \'Get Started\' you accept the Terms of Use and Privacy Policy</string>
+    <string name="messages_privacy_description">We do not share or read your messages with others we just manage them in better ways and with extra features.</string>
+    <string name="contacts_privacy_description">We do not share your contacts with others they are just used to manage your record in the app just like the default app.</string>
+    <string name="contacts">Contacts</string>
+    <string name="must_select_terms_and_condition">Must select terms and condition</string>
+    <string name="privacy_policy_">Privacy Policy</string>
+    <string name="terms_of_use">Terms of Use</string>
     <!--
         Non atopaches algunhas cadeas? Hai máis en
         https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res

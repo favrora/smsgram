@@ -88,6 +88,14 @@
     <string name="faq_2_text">La taille des MMS est limitée par les opérateurs. Vous pouvez essayer de fixer une limite plus petite dans les paramètres de l\'application.</string>
     <string name="faq_3_title">L\'application prend-elle en charge les messages programmés \?</string>
     <string name="faq_3_text">Oui, vous pouvez programmer l\'envoi de messages dans le futur en appuyant longuement sur le bouton Envoyer et en choisissant la date et l\'heure souhaitées.</string>
+    <string name="get_started">Commencer</string>
+    <string name="terms_of_use_message">En cliquant sur \'Commencer\', vous acceptez les Conditions d\'utilisation et la Politique de confidentialité</string>
+    <string name="messages_privacy_description">Nous ne partageons ni ne lisons vos messages avec d\'autres personnes, nous les gérons simplement de manière plus efficace et avec des fonctionnalités supplémentaires.</string>
+    <string name="contacts_privacy_description">Nous ne partageons pas vos contacts avec d\'autres, ils sont simplement utilisés pour gérer votre dossier dans l\'application, tout comme l\'application par défaut.</string>
+    <string name="contacts">Contacts</string>
+    <string name="must_select_terms_and_condition">Vous devez sélectionner les termes et conditions</string>
+    <string name="privacy_policy_">Politique de confidentialité</string>
+    <string name="terms_of_use">Conditions d\'utilisation</string>
     <!--
         Haven't found some strings? There's more at
         https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res

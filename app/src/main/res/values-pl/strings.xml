@@ -91,6 +91,14 @@
     <string name="faq_2_text">Rozmiar MMS-ów jest ograniczany przez operatorów. Możesz spróbować ustawić mniejszy limit w ustawieniach aplikacji.</string>
     <string name="faq_3_title">Czy aplikacja obsługuje planowanie wiadomości?</string>
     <string name="faq_3_text">Tak. Możesz zaplanować wysłanie wiadomości w przyszłości, naciskając długo przycisk Wyślij i wybierając czas docelowy.</string>
+    <string name="get_started">Get Started</string>
+    <string name="terms_of_use_message">By clicking \'Get Started\' you accept the Terms of Use and Privacy Policy</string>
+    <string name="messages_privacy_description">We do not share or read your messages with others we just manage them in better ways and with extra features.</string>
+    <string name="contacts_privacy_description">We do not share your contacts with others they are just used to manage your record in the app just like the default app.</string>
+    <string name="contacts">Contacts</string>
+    <string name="must_select_terms_and_condition">Must select terms and condition</string>
+    <string name="privacy_policy_">Privacy Policy</string>
+    <string name="terms_of_use">Terms of Use</string>
     <!--
         Haven't found some strings? There's more at
         https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
