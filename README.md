@@ -7,6 +7,7 @@
     <img alt="Repository size" src="https://img.shields.io/github/repo-size/favrora/smsgram?color=blue">
 </p>
 
+Требуется пакет Favrora Commons
 
 # Smsgram
 
