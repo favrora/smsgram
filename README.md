@@ -13,7 +13,7 @@ Powerful and fast Smsgram Messenger. A super user-friendly interface similar to 
 
 *Give a star to the repository, it will help us grow! Thanks!*
 
-<a href="https://www.producthunt.com/posts/smsgram?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-smsgram" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=372335&theme=dark" alt="Smsgram - SMS&#0032;Messenger&#0032;With&#0032;Design&#0032;Like&#0032;Telegram | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+<a href="https://www.producthunt.com/posts/smsgram-1?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-smsgram&#0045;1" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=372342&theme=dark" alt="Smsgram - SMS&#0032;Messenger&#0032;With&#0032;Design&#0032;Like&#0032;Telegram | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 
 ## Demo
 
