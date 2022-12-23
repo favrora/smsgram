@@ -17,7 +17,7 @@ Powerful and fast Smsgram Messenger. A super user-friendly interface similar to 
 
 ## Demo
 
-Link to app on Google Play: [Mobile app](https://play.google.com/store/apps/details?id=com.favrora.avatar)
+Link to app on Google Play: [Mobile app](https://play.google.com/store/apps/details?id=com.favrora.prosms)
 
 ## Preview
 
