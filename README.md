@@ -21,7 +21,7 @@ Link to app on Google Play: [Mobile app](https://play.google.com/store/apps/deta
 
 ## Preview
 
-<img src="src/assets/img/preview.gif" width="600px">
+<img src="graphics/big.jpg" width="800px">
 
 ## Development
 
