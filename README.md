@@ -1,10 +1,10 @@
 <p align="left">
     <a href="https://github.com/favrora/Avatar-Maker/stargazers">
-      <img alt="Stargazers" src="https://img.shields.io/github/stars/favrora/Avatar-Maker?color=blue">
+      <img alt="Stargazers" src="https://img.shields.io/github/stars/favrora/smsgram?color=blue">
     </a>
-    <img alt="Contributors" src="https://img.shields.io/github/contributors/favrora/Avatar-Maker?color=blue">
-    <img alt="License" src="https://img.shields.io/github/license/favrora/Avatar-Maker?color=blue">
-    <img alt="Repository size" src="https://img.shields.io/github/repo-size/favrora/Avatar-Maker?color=blue">
+    <img alt="Contributors" src="https://img.shields.io/github/contributors/favrora/smsgram?color=blue">
+    <img alt="License" src="https://img.shields.io/github/license/favrora/smsgram?color=blue">
+    <img alt="Repository size" src="https://img.shields.io/github/repo-size/favrora/smsgram?color=blue">
 </p>
 
 
@@ -14,7 +14,7 @@ Collect your avatar from different parts. The code of this program is very easy,
 
 *Give a star to the repository, it will help us grow! Thanks!*
 
-<a href="https://www.producthunt.com/posts/avatar-maker-2?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-avatar-maker-2" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=288616&theme=dark" alt="Avatar Maker - Create your own avatar | Product Hunt" style="width: 200px; height: 44px;" width="200" height="44" /></a> <a href="https://www.producthunt.com/posts/avatar-maker-2?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-avatar-maker-2" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=288616&theme=dark&period=daily" alt="Avatar Maker - Create your own avatar | Product Hunt" style="width: 200px; height: 44px;" width="200" height="44" /></a>
+<a href="https://www.producthunt.com/posts/smsgram?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-avatar-maker-2" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=288616&theme=dark" alt="Avatar Maker - Create your own avatar | Product Hunt" style="width: 200px; height: 44px;" width="200" height="44" /></a> <a href="https://www.producthunt.com/posts/avatar-maker-2?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-avatar-maker-2" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=288616&theme=dark&period=daily" alt="Avatar Maker - Create your own avatar | Product Hunt" style="width: 200px; height: 44px;" width="200" height="44" /></a>
 
 ## Demo
 
@@ -59,14 +59,3 @@ In order to run it locally you'll need to fetch some dependencies and a basic se
     $ npm run serve
     ```
 
-## Open tasks
-
-* [Align the avatar to the bottom for mobile devices.](https://github.com/favrora/Avatar-Maker/issues/9)
-* [Add the ability to change color](https://github.com/favrora/Avatar-Maker/issues/14)
-* [Add a female avatar](https://github.com/favrora/Avatar-Maker/issues/15)
-
-## Completed tasks
-
-* ~~Change random avatar without reloading the site.~~ | Done by [Bruno Neves](https://github.com/7br-uno) | 23.03.2021
-* ~~Add function to download created avatar as a png image.~~ | Done by [Peter H.](https://github.com/PetFeld) | 01.03.2021
-* ~~Create a demo site~~ | Done by [Andrew Kliskey](https://github.com/andrewkliskey) | 03.02.2021
