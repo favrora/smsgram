@@ -26,31 +26,13 @@ Link to app on Google Play: [Mobile app](https://play.google.com/store/apps/deta
 ## Development
 
 Getting Start:
-* Open a terminal. 
-* Go to the folder where you want to copy the project. 
 * Copy the project with this command:
 
     ```sh
     $ git clone https://github.com/favrora/smsgram.git
     ```
 
-* Go to the project folder:
+* To build the application you need an additional library com.favrora.commons. [Link to the library here](https://github.com/favrora/SMS-commons)
+* Build gradle and apk file
 
-    ```sh
-    $ cd smsgram
-    ```
-
-In order to run it locally you'll need to fetch some dependencies and a basic server setup.
-
-* Install local dependencies:
-
-    ```sh
-    $ npm install
-    ```
-
-* Start the development server and open [`http://localhost:8080`](http://localhost:8080).
-
-    ```sh
-    $ npm run serve
-    ```
 
