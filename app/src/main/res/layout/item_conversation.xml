@@ -13,7 +13,7 @@
         android:id="@+id/conversation_holder"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="20dp">
+        android:paddingTop="17dp">
 
         <ImageView
             android:id="@+id/conversation_image"
@@ -85,7 +85,7 @@
             android:maxLines="1"
             android:paddingStart="0dp"
             android:paddingEnd="@dimen/activity_margin"
-            android:layout_marginEnd="35dp"
+            android:layout_marginEnd="30dp"
             android:textAlignment="viewStart"
             android:textDirection="locale"
             android:textSize="@dimen/normal_text_size"
@@ -98,7 +98,6 @@
             android:layout_below="@+id/conversation_address"
             android:layout_alignEnd="@+id/conversation_body_short"
             android:layout_alignParentEnd="true"
-            android:layout_marginStart="-40dp"
             android:layout_marginTop="4dp"
             android:layout_marginEnd="16dp"
             android:src="@drawable/ic_new_message" />
@@ -122,7 +121,7 @@
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:background="@color/dividerDark"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="17dp"
             tools:ignore="MissingConstraints"
             android:layout_below="@+id/conversation_body_short" />
 

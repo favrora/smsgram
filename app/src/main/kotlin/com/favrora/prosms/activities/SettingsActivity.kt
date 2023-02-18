@@ -87,10 +87,6 @@ class SettingsActivity : SimpleActivity() {
         settings_language.text = Locale.getDefault().displayLanguage
         settings_language_holder.beVisibleIf(isTiramisuPlus())
 
-        if (settings_use_english_holder.isGone() && settings_language_holder.isGone()) {
-            settings_change_date_time_format_holder.background = resources.getDrawable(R.drawable.ripple_top_corners, theme)
-        }
-
         settings_language_holder.setOnClickListener {
             launchChangeAppLanguageIntent()
         }

@@ -52,14 +52,14 @@
                 android:id="@+id/about_support_holder"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="@dimen/medium_margin"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:layout_marginVertical="@dimen/medium_margin">
 
                 <RelativeLayout
                     android:id="@+id/about_faq_holder"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/ripple_top_corners"
+                    android:background="@drawable/ripple_background"
                     android:padding="@dimen/medium_margin">
 
                     <ImageView
@@ -89,7 +89,7 @@
                     android:id="@+id/about_email_holder"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/ripple_bottom_corners"
+                    android:background="@drawable/ripple_background"
                     android:padding="@dimen/medium_margin">
 
                     <ImageView
@@ -138,14 +138,14 @@
                 android:id="@+id/about_help_us_holder"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="@dimen/medium_margin"
+                android:layout_marginVertical="@dimen/medium_margin"
                 android:orientation="vertical">
 
                 <RelativeLayout
                     android:id="@+id/about_rate_us_holder"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/ripple_top_corners"
+                    android:background="@drawable/ripple_background"
                     android:padding="@dimen/medium_margin">
 
                     <ImageView
@@ -206,7 +206,6 @@
                     android:visibility="gone"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/ripple_bottom_corners"
                     android:padding="@dimen/medium_margin">
 
                     <ImageView
@@ -236,7 +235,6 @@
                     android:id="@+id/about_donate_holder"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/ripple_bottom_corners"
                     android:padding="@dimen/medium_margin"
                     android:visibility="gone">
 
@@ -286,7 +284,6 @@
                     android:id="@+id/about_facebook_holder"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/ripple_top_corners"
                     android:padding="@dimen/medium_margin">
 
                     <ImageView
@@ -346,7 +343,7 @@
                     android:id="@+id/about_telegram_holder"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/ripple_bottom_corners"
+                    android:background="@drawable/ripple_background"
                     android:padding="@dimen/medium_margin">
 
                     <ImageView
@@ -395,7 +392,7 @@
                 android:id="@+id/about_other_holder"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="@dimen/medium_margin"
+                android:layout_marginVertical="@dimen/medium_margin"
                 android:orientation="vertical">
 
                 <RelativeLayout
@@ -526,6 +523,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/ripple_background"
+                    android:visibility="gone"
                     android:padding="@dimen/medium_margin">
 
                     <ImageView
@@ -555,7 +553,7 @@
                     android:id="@+id/about_version_holder"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/ripple_bottom_corners"
+                    android:background="@drawable/ripple_background"
                     android:padding="@dimen/medium_margin">
 
                     <ImageView

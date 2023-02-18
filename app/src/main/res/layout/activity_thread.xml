@@ -131,7 +131,7 @@
         <View
             android:id="@+id/message_divider"
             android:layout_width="match_parent"
-            android:layout_height="1px"
+            android:layout_height="1dp"
             android:background="@color/divider_grey"
             android:importantForAccessibility="no"
             app:layout_constraintBottom_toTopOf="@id/scheduled_message_holder"
@@ -294,6 +294,7 @@
             android:textSize="0sp"
             android:contentDescription="@string/ok"
             android:drawableStart="@drawable/ic_send_vector"
+            android:rotation="40"
             android:padding="@dimen/medium_margin"
             app:layout_constraintBottom_toTopOf="@id/attachment_picker_divider"
             app:layout_constraintEnd_toEndOf="parent" />

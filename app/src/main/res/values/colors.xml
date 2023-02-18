@@ -3,7 +3,7 @@
 
     <item name="color_primary" type="color">#0077FF</item>
 
-    <item name="backgroundDark" type="color">#182432</item>
-    <item name="dividerDark" type="color">#111c28</item>
+    <item name="backgroundDark" type="color">#192332</item>
+    <item name="dividerDark" type="color">#030D17</item>
 
 </resources>
