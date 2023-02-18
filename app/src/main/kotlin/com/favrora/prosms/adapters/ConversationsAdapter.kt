@@ -320,14 +320,17 @@ class ConversationsAdapter(
                 setTextSize(TypedValue.COMPLEX_UNIT_PX, fontSize * 0.8f)
             }
 
+            // unread style
             val style = if (conversation.read) {
+                conversation_new_messages.beGone()
                 conversation_body_short.alpha = 0.7f
                 if (conversation.isScheduled) Typeface.ITALIC else Typeface.NORMAL
             } else {
+                conversation_new_messages.beVisible()
                 conversation_body_short.alpha = 1f
                 if (conversation.isScheduled) Typeface.BOLD_ITALIC else Typeface.BOLD
-
             }
+
             conversation_address.setTypeface(null, style)
             conversation_body_short.setTypeface(null, style)
 

@@ -1,0 +1,11 @@
+{
+  "name": "smsgram",
+  "version": "1.0.0",
+  "description": "Smsgram android app",
+  "targets": {
+    "main": false
+  },
+  "scripts": {
+    "save": "git add --all && git commit -m fix --no-verify && git push origin HEAD"
+  }
+}
