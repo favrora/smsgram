@@ -38,7 +38,7 @@
 
             <TextView
                 android:id="@+id/settings_color_customization_label"
-                android:visibility="gone"
+
                 style="@style/SettingsSectionLabelStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -48,7 +48,6 @@
 
             <LinearLayout
                 android:id="@+id/settings_color_customization_holder"
-                android:visibility="gone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginVertical="@dimen/medium_margin"
