@@ -118,10 +118,11 @@
             tools:text="13:30" />
 
         <View
+            android:id="@+id/border_chat"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="@color/dividerDark"
             android:layout_marginTop="17dp"
+            android:alpha="0.1"
             tools:ignore="MissingConstraints"
             android:layout_below="@+id/conversation_body_short" />
 

@@ -13,6 +13,7 @@ import com.favrora.commons.views.MyRecyclerView
 import com.favrora.prosms.R
 import com.favrora.prosms.activities.SimpleActivity
 import com.favrora.prosms.models.SearchResult
+import kotlinx.android.synthetic.main.item_conversation.view.border_chat
 import kotlinx.android.synthetic.main.item_search_result.view.*
 
 class SearchResultsAdapter(
@@ -81,6 +82,10 @@ class SearchResultsAdapter(
                 text = searchResult.date
                 setTextColor(textColor)
                 setTextSize(TypedValue.COMPLEX_UNIT_PX, fontSize * 0.8f)
+            }
+
+            arrayListOf<View>(border_chat).forEach {
+                it.setBackgroundColor(textColor)
             }
 
             SimpleContactsHelper(context).loadContactImage(searchResult.photoUri, search_result_image, searchResult.title)

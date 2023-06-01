@@ -27,7 +27,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:paddingBottom="@dimen/tiny_margin"
-        android:background="@color/backgroundDark"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <RelativeLayout
@@ -132,7 +131,7 @@
             android:id="@+id/message_divider"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="@color/divider_grey"
+            android:alpha="0.1"
             android:importantForAccessibility="no"
             app:layout_constraintBottom_toTopOf="@id/scheduled_message_holder"
             app:layout_constraintTop_toBottomOf="@id/thread_messages_fastscroller"

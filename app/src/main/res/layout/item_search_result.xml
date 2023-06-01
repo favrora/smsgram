@@ -55,9 +55,10 @@
         tools:text="08/02/2021" />
 
     <View
+        android:id="@+id/border_chat"
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="@color/dividerDark"
+        android:alpha="0.1"
         android:layout_marginTop="@dimen/activity_margin"
         tools:ignore="MissingConstraints"
         android:layout_below="@+id/search_result_snippet" />

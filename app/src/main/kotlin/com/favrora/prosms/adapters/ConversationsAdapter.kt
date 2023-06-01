@@ -338,6 +338,10 @@ class ConversationsAdapter(
                 it.setTextColor(textColor)
             }
 
+            arrayListOf<View>(border_chat).forEach {
+                it.setBackgroundColor(textColor)
+            }
+
             // at group conversations we use an icon as the placeholder, not any letter
             val placeholder = if (conversation.isGroupConversation) {
                 SimpleContactsHelper(context).getColoredGroupIcon(conversation.title)

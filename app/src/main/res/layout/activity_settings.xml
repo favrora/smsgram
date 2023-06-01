@@ -33,12 +33,10 @@
             android:id="@+id/settings_holder"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/backgroundDark"
             android:orientation="vertical">
 
             <TextView
                 android:id="@+id/settings_color_customization_label"
-
                 style="@style/SettingsSectionLabelStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -68,6 +66,14 @@
 
                 </RelativeLayout>
             </LinearLayout>
+
+            <View
+                android:id="@+id/border_chat3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:alpha="0.1"
+                android:layout_marginBottom="10dp"
+                tools:ignore="MissingConstraints" />
 
             <TextView
                 android:id="@+id/settings_general_settings_label"
@@ -183,10 +189,11 @@
             </LinearLayout>
 
             <View
+                android:id="@+id/border_chat"
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="@color/dividerDark"
-                android:layout_marginTop="15dp"
+                android:alpha="0.1"
+                android:layout_marginBottom="10dp"
                 tools:ignore="MissingConstraints" />
 
             <TextView
@@ -247,10 +254,11 @@
             </LinearLayout>
 
             <View
+                android:id="@+id/border_chat2"
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="@color/dividerDark"
-                android:layout_marginTop="15dp"
+                android:alpha="0.1"
+                android:layout_marginBottom="10dp"
                 tools:ignore="MissingConstraints" />
 
             <TextView

@@ -4,6 +4,7 @@ import android.annotation.TargetApi
 import android.content.Intent
 import android.os.Build
 import android.os.Bundle
+import android.view.View
 import com.favrora.commons.activities.ManageBlockedNumbersActivity
 import com.favrora.commons.dialogs.ChangeDateTimeFormatDialog
 import com.favrora.commons.dialogs.RadioGroupDialog
@@ -14,6 +15,7 @@ import com.favrora.prosms.R
 import com.favrora.prosms.extensions.config
 import com.favrora.prosms.helpers.*
 import kotlinx.android.synthetic.main.activity_settings.*
+import kotlinx.android.synthetic.main.item_conversation.view.border_chat
 import java.util.*
 
 class SettingsActivity : SimpleActivity() {
@@ -49,7 +51,11 @@ class SettingsActivity : SimpleActivity() {
         }
 
         arrayOf(settings_color_customization_label, settings_general_settings_label, settings_outgoing_messages_label, settings_notifications_label).forEach {
-            it.setTextColor(getProperPrimaryColor())
+            it.setTextColor(getProperTextColor())
+        }
+
+        arrayListOf<View>(border_chat, border_chat2, border_chat3).forEach {
+            it.setBackgroundColor(getProperTextColor())
         }
     }
 

@@ -53,6 +53,8 @@ import com.favrora.prosms.dialogs.ScheduleMessageDialog
 import com.favrora.prosms.extensions.*
 import com.favrora.prosms.helpers.*
 import com.favrora.prosms.models.*
+import kotlinx.android.synthetic.main.activity_settings.border_chat
+import kotlinx.android.synthetic.main.activity_settings.border_chat2
 import kotlinx.android.synthetic.main.activity_thread.*
 import kotlinx.android.synthetic.main.item_selected_contact.view.*
 import kotlinx.android.synthetic.main.layout_attachment_picker.*
@@ -148,6 +150,10 @@ class ThreadActivity : SimpleActivity() {
             thread_type_message.setText(smsDraft)
         }
         isActivityVisible = true
+
+        arrayListOf<View>(message_divider).forEach {
+            it.setBackgroundColor(getProperTextColor())
+        }
     }
 
     override fun onPause() {

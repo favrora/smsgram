@@ -34,7 +34,6 @@
             android:id="@+id/about_holder"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/backgroundDark"
             android:orientation="vertical">
 
             <TextView
@@ -117,9 +116,10 @@
             </LinearLayout>
 
             <View
+                android:id="@+id/border_chat"
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="@color/dividerDark"
+                android:alpha="0.1"
                 android:layout_marginTop="15dp"
                 tools:ignore="MissingConstraints" />
 
@@ -371,9 +371,10 @@
             </LinearLayout>
 
             <View
+                android:id="@+id/border_chat2"
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="@color/dividerDark"
+                android:alpha="0.1"
                 android:layout_marginTop="15dp"
                 tools:ignore="MissingConstraints" />
 
