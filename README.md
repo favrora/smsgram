@@ -1,38 +1,51 @@
-<p align="left">
-    <a href="https://github.com/favrora/Avatar-Maker/stargazers">
-      <img alt="Stargazers" src="https://img.shields.io/github/stars/favrora/smsgram?color=blue">
-    </a>
-    <img alt="Contributors" src="https://img.shields.io/github/contributors/favrora/smsgram?color=blue">
-    <img alt="License" src="https://img.shields.io/github/license/favrora/smsgram?color=blue">
-    <img alt="Repository size" src="https://img.shields.io/github/repo-size/favrora/smsgram?color=blue">
-</p>
-
 # Smsgram
 
-Powerful and fast Smsgram Messenger. A super user-friendly interface similar to Telegram will make your communication via SMS enjoyable. The design of the application is very convenient and implemented like most messengers.
+[![License: GPL-3.0](https://img.shields.io/badge/license-GPL--3.0-blue.svg)](./LICENSE)
 
-*Give a star to the repository, it will help us grow! Thanks!*
+> Historical Android project. Smsgram's former Google Play release is no longer maintained, but the source remains public as a production messaging case study.
 
-<a href="https://www.producthunt.com/posts/smsgram-1?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-smsgram&#0045;1" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=372342&theme=dark" alt="Smsgram - SMS&#0032;Messenger&#0032;With&#0032;Design&#0032;Like&#0032;Telegram | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+Smsgram is a native Android SMS and MMS client with a conversation-first interface. The final release supported everyday messaging, scheduled delivery, media attachments, search, notifications, backup and restore, and configurable messaging behavior.
 
-## Demo
+![Smsgram conversation interface](./graphics/big.jpg)
 
-Link to app on Google Play: [Mobile app](https://play.google.com/store/apps/details?id=com.favrora.prosms)
+## Engineering Highlights
 
-## Preview
+- Kotlin application with separate activities, adapters, services, receivers, and data models
+- SMS and MMS receive/send pipelines with delivery-status handling
+- Scheduled messages and notification quick replies
+- Room persistence for conversations and message attachments
+- Import/export workflows for SMS and MMS backups
+- Contact, vCard, attachment preview, and image-compression utilities
+- Product flavors for core, F-Droid, and prepaid distributions
+- Fastlane metadata and release assets for store delivery
 
-<img src="graphics/big.jpg" width="800px">
+## Architecture
 
-## Development
+```text
+app/src/main/kotlin/com/favrora/prosms/
+├── activities/     Conversation, search, settings, and viewer screens
+├── adapters/       Lists for threads, contacts, search, and attachments
+├── databases/      Room database configuration
+├── helpers/        Messaging, backup, contacts, and media workflows
+├── receivers/      SMS/MMS, delivery, scheduling, and quick-reply events
+├── services/       Background messaging services
+└── models/         Typed conversation and attachment models
+```
 
-Getting Start:
-* Copy the project with this command:
+## Build Snapshot
 
-    ```sh
-    $ git clone https://github.com/favrora/smsgram.git
-    ```
+This repository preserves the final 2023 application configuration. Its original build depends on historical Android artifacts that are no longer available from every upstream repository. The commands below document the original local workflow rather than a supported modern release pipeline.
 
-* To build the application you need an additional library com.favrora.commons. [Link to the library here](https://github.com/favrora/SMS-commons)
-* Build gradle and apk file
+```bash
+# In SMS-commons
+./gradlew publishToMavenLocal
 
+# In smsgram
+./gradlew assembleCoreDebug
+```
 
+The project targets Android API 33 and requires JDK 17. Generated APK artifacts and signing files are intentionally excluded from source control.
+
+## License
+
+Released under the [GNU General Public License v3.0](./LICENSE).
